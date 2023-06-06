@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: starter.CucumberTestSuite
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 16.791 s <<< FAILURE! - in starter.CucumberTestSuite
+User.POST - As admin I can login  Time elapsed: 9.609 s  <<< ERROR!
+java.lang.RuntimeException: Some exception during recording fields
+Caused by: java.net.ConnectException: Connection refused: connect
+
