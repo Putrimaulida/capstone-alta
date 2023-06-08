@@ -1,5 +1,5 @@
 Feature: User
-  As an a admin
+  As an a cashier
   I want to log in
   So that I can get token
 
