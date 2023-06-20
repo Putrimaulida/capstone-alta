@@ -1,0 +1,6 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"User","GET - Cashier get categories & items with valid endpoint input","FAILURE","2023-06-16T11:43:26.626+07:00[Asia/Bangkok]","0.0","0.44"
+"User","GET - Cashier get search item by name with valid endpoint input","FAILURE","2023-06-16T11:43:27.291+07:00[Asia/Bangkok]","0.0","0.36"
+"User","GET - Cashier get search item by id with valid endpoint input","FAILURE","2023-06-16T11:43:27.718+07:00[Asia/Bangkok]","0.0","0.37"
+"User","GET - Cashier get category with valid endpoint input","FAILURE","2023-06-16T11:43:28.332+07:00[Asia/Bangkok]","0.0","0.41"
+"User","POST - Cashier can add new memberships data","FAILURE","2023-06-16T11:43:28.908+07:00[Asia/Bangkok]","0.0","0.28"

@@ -1,0 +1,667 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-failsafe-plugin/xsd/failsafe-test-report-3.0.xsd" version="3.0" name="starter.CucumberTestSuite" time="22.325" tests="7" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="E:\SEMESTER VI\KAMPUS MERDEKA\capstone-pos\automation\api-automation-pos\target\test-classes;E:\SEMESTER VI\KAMPUS MERDEKA\capstone-pos\automation\api-automation-pos\target\api-automation-1.0-SNAPSHOT.jar;C:\Users\ASUS\.m2\repository\net\serenity-bdd\serenity-core\3.6.12\serenity-core-3.6.12.jar;C:\Users\ASUS\.m2\repository\net\serenity-bdd\serenity-model\3.6.12\serenity-model-3.6.12.jar;C:\Users\ASUS\.m2\repository\org\apache\commons\commons-text\1.10.0\commons-text-1.10.0.jar;C:\Users\ASUS\.m2\repository\commons-net\commons-net\3.9.0\commons-net-3.9.0.jar;C:\Users\ASUS\.m2\repository\com\google\guava\guava\31.1-jre\guava-31.1-jre.jar;C:\Users\ASUS\.m2\repository\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar;C:\Users\ASUS\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\ASUS\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\ASUS\.m2\repository\org\checkerframework\checker-qual\3.12.0\checker-qual-3.12.0.jar;C:\Users\ASUS\.m2\repository\com\google\errorprone\error_prone_annotations\2.11.0\error_prone_annotations-2.11.0.jar;C:\Users\ASUS\.m2\repository\com\google\j2objc\j2objc-annotations\1.3\j2objc-annotations-1.3.jar;C:\Users\ASUS\.m2\repository\com\google\inject\guice\5.1.0\guice-5.1.0.jar;C:\Users\ASUS\.m2\repository\javax\inject\javax.inject\1\javax.inject-1.jar;C:\Users\ASUS\.m2\repository\aopalliance\aopalliance\1.0\aopalliance-1.0.jar;C:\Users\ASUS\.m2\repository\org\jsoup\jsoup\1.14.3\jsoup-1.14.3.jar;C:\Users\ASUS\.m2\repository\com\thoughtworks\xstream\xstream\1.4.20\xstream-1.4.20.jar;C:\Users\ASUS\.m2\repository\io\github\x-stream\mxparser\1.2.2\mxparser-1.2.2.jar;C:\Users\ASUS\.m2\repository\xmlpull\xmlpull\1.1.3.1\xmlpull-1.1.3.1.jar;C:\Users\ASUS\.m2\repository\com\typesafe\config\1.4.2\config-1.4.2.jar;C:\Users\ASUS\.m2\repository\org\imgscalr\imgscalr-lib\4.2\imgscalr-lib-4.2.jar;C:\Users\ASUS\.m2\repository\org\awaitility\awaitility\4.2.0\awaitility-4.2.0.jar;C:\Users\ASUS\.m2\repository\org\freemarker\freemarker\2.3.31\freemarker-2.3.31.jar;C:\Users\ASUS\.m2\repository\io\github\classgraph\classgraph\4.8.138\classgraph-4.8.138.jar;C:\Users\ASUS\.m2\repository\net\sourceforge\jexcelapi\jxl\2.6.12\jxl-2.6.12.jar;C:\Users\ASUS\.m2\repository\net\bytebuddy\byte-buddy-agent\1.12.22\byte-buddy-agent-1.12.22.jar;C:\Users\ASUS\.m2\repository\org\objenesis\objenesis\3.1\objenesis-3.1.jar;C:\Users\ASUS\.m2\repository\net\serenity-bdd\serenity-reports\3.6.12\serenity-reports-3.6.12.jar;C:\Users\ASUS\.m2\repository\net\serenity-bdd\serenity-stats\3.6.12\serenity-stats-3.6.12.jar;C:\Users\ASUS\.m2\repository\net\serenity-bdd\serenity-reports-configuration\3.6.12\serenity-reports-configuration-3.6.12.jar;C:\Users\ASUS\.m2\repository\com\vladsch\flexmark\flexmark-all\0.34.30\flexmark-all-0.34.30.jar;C:\Users\ASUS\.m2\repository\com\vladsch\flexmark\flexmark\0.34.30\flexmark-0.34.30.jar;C:\Users\ASUS\.m2\repository\com\vladsch\flexmark\flexmark-ext-abbreviation\0.34.30\flexmark-ext-abbreviation-0.34.30.jar;C:\Users\ASUS\.m2\repository\com\vladsch\flexmark\flexmark-ext-admonition\0.34.30\flexmark-ext-admonition-0.34.30.jar;C:\Users\ASUS\.m2\repository\com\vladsch\flexmark\flexmark-ext-anchorlink\0.34.30\flexmark-ext-anchorlink-0.34.30.jar;C:\Users\ASUS\.m2\repository\com\vladsch\flexmark\flexmark-ext-aside\0.34.30\flexmark-ext-aside-0.34.30.jar;C:\Users\ASUS\.m2\repository\com\vladsch\flexmark\flexmark-ext-attributes\0.34.30\flexmark-ext-attributes-0.34.30.jar;C:\Users\ASUS\.m2\repository\com\vladsch\flexmark\flexmark-ext-autolink\0.34.30\flexmark-ext-autolink-0.34.30.jar;C:\Users\ASUS\.m2\repository\org\nibor\autolink\autolink\0.6.0\autolink-0.6.0.jar;C:\Users\ASUS\.m2\repository\com\vladsch\flexmark\flexmark-ext-definition\0.34.30\flexmark-ext-definition-0.34.30.jar;C:\Users\ASUS\.m2\repository\com\vladsch\flexmark\flexmark-ext-emoji\0.34.30\flexmark-ext-emoji-0.34.30.jar;C:\Users\ASUS\.m2\repository\com\vladsch\flexmark\flexmark-ext-enumerated-reference\0.34.30\flexmark-ext-enumerated-reference-0.34.30.jar;C:\Users\ASUS\.m2\repository\com\vladsch\flexmark\flexmark-ext-escaped-character\0.34.30\flexmark-ext-escaped-character-0.34.30.jar;C:\Users\ASUS\.m2\repository\com\vladsch\flexmark\flexmark-ext-footnotes\0.34.30\flexmark-ext-footnotes-0.34.30.jar;C:\Users\ASUS\.m2\repository\com\vladsch\flexmark\flexmark-ext-gfm-issues\0.34.30\flexmark-ext-gfm-issues-0.34.30.jar;C:\Users\ASUS\.m2\repository\com\vladsch\flexmark\flexmark-ext-gfm-strikethrough\0.34.30\flexmark-ext-gfm-strikethrough-0.34.30.jar;C:\Users\ASUS\.m2\repository\com\vladsch\flexmark\flexmark-ext-gfm-tables\0.34.30\flexmark-ext-gfm-tables-0.34.30.jar;C:\Users\ASUS\.m2\repository\com\vladsch\flexmark\flexmark-ext-gfm-tasklist\0.34.30\flexmark-ext-gfm-tasklist-0.34.30.jar;C:\Users\ASUS\.m2\repository\com\vladsch\flexmark\flexmark-ext-gfm-users\0.34.30\flexmark-ext-gfm-users-0.34.30.jar;C:\Users\ASUS\.m2\repository\com\vladsch\flexmark\flexmark-ext-gitlab\0.34.30\flexmark-ext-gitlab-0.34.30.jar;C:\Users\ASUS\.m2\repository\com\vladsch\flexmark\flexmark-ext-jekyll-front-matter\0.34.30\flexmark-ext-jekyll-front-matter-0.34.30.jar;C:\Users\ASUS\.m2\repository\com\vladsch\flexmark\flexmark-ext-jekyll-tag\0.34.30\flexmark-ext-jekyll-tag-0.34.30.jar;C:\Users\ASUS\.m2\repository\com\vladsch\flexmark\flexmark-ext-media-tags\0.34.30\flexmark-ext-media-tags-0.34.30.jar;C:\Users\ASUS\.m2\repository\com\vladsch\flexmark\flexmark-test-util\0.34.30\flexmark-test-util-0.34.30.jar;C:\Users\ASUS\.m2\repository\com\vladsch\flexmark\flexmark-ext-ins\0.34.30\flexmark-ext-ins-0.34.30.jar;C:\Users\ASUS\.m2\repository\com\vladsch\flexmark\flexmark-ext-xwiki-macros\0.34.30\flexmark-ext-xwiki-macros-0.34.30.jar;C:\Users\ASUS\.m2\repository\com\vladsch\flexmark\flexmark-ext-superscript\0.34.30\flexmark-ext-superscript-0.34.30.jar;C:\Users\ASUS\.m2\repository\com\vladsch\flexmark\flexmark-ext-tables\0.34.30\flexmark-ext-tables-0.34.30.jar;C:\Users\ASUS\.m2\repository\com\vladsch\flexmark\flexmark-ext-toc\0.34.30\flexmark-ext-toc-0.34.30.jar;C:\Users\ASUS\.m2\repository\com\vladsch\flexmark\flexmark-ext-typographic\0.34.30\flexmark-ext-typographic-0.34.30.jar;C:\Users\ASUS\.m2\repository\com\vladsch\flexmark\flexmark-ext-wikilink\0.34.30\flexmark-ext-wikilink-0.34.30.jar;C:\Users\ASUS\.m2\repository\com\vladsch\flexmark\flexmark-ext-yaml-front-matter\0.34.30\flexmark-ext-yaml-front-matter-0.34.30.jar;C:\Users\ASUS\.m2\repository\com\vladsch\flexmark\flexmark-ext-youtube-embedded\0.34.30\flexmark-ext-youtube-embedded-0.34.30.jar;C:\Users\ASUS\.m2\repository\com\vladsch\flexmark\flexmark-formatter\0.34.30\flexmark-formatter-0.34.30.jar;C:\Users\ASUS\.m2\repository\com\vladsch\flexmark\flexmark-html-parser\0.34.30\flexmark-html-parser-0.34.30.jar;C:\Users\ASUS\.m2\repository\com\vladsch\flexmark\flexmark-jira-converter\0.34.30\flexmark-jira-converter-0.34.30.jar;C:\Users\ASUS\.m2\repository\com\vladsch\flexmark\flexmark-pdf-converter\0.34.30\flexmark-pdf-converter-0.34.30.jar;C:\Users\ASUS\.m2\repository\com\openhtmltopdf\openhtmltopdf-core\0.0.1-RC13\openhtmltopdf-core-0.0.1-RC13.jar;C:\Users\ASUS\.m2\repository\com\openhtmltopdf\openhtmltopdf-pdfbox\0.0.1-RC13\openhtmltopdf-pdfbox-0.0.1-RC13.jar;C:\Users\ASUS\.m2\repository\org\apache\pdfbox\pdfbox\2.0.8\pdfbox-2.0.8.jar;C:\Users\ASUS\.m2\repository\org\apache\pdfbox\fontbox\2.0.8\fontbox-2.0.8.jar;C:\Users\ASUS\.m2\repository\org\apache\pdfbox\xmpbox\2.0.8\xmpbox-2.0.8.jar;C:\Users\ASUS\.m2\repository\de\rototor\pdfbox\graphics2d\0.12\graphics2d-0.12.jar;C:\Users\ASUS\.m2\repository\com\openhtmltopdf\openhtmltopdf-rtl-support\0.0.1-RC13\openhtmltopdf-rtl-support-0.0.1-RC13.jar;C:\Users\ASUS\.m2\repository\com\ibm\icu\icu4j\59.1\icu4j-59.1.jar;C:\Users\ASUS\.m2\repository\com\openhtmltopdf\openhtmltopdf-jsoup-dom-converter\0.0.1-RC13\openhtmltopdf-jsoup-dom-converter-0.0.1-RC13.jar;C:\Users\ASUS\.m2\repository\com\vladsch\flexmark\flexmark-profile-pegdown\0.34.30\flexmark-profile-pegdown-0.34.30.jar;C:\Users\ASUS\.m2\repository\com\vladsch\flexmark\flexmark-util\0.34.30\flexmark-util-0.34.30.jar;C:\Users\ASUS\.m2\repository\com\vladsch\flexmark\flexmark-youtrack-converter\0.34.30\flexmark-youtrack-converter-0.34.30.jar;C:\Users\ASUS\.m2\repository\es\nitaur\markdown\txtmark\0.16\txtmark-0.16.jar;C:\Users\ASUS\.m2\repository\net\serenity-bdd\serenity-report-resources\3.6.12\serenity-report-resources-3.6.12.jar;C:\Users\ASUS\.m2\repository\com\google\code\gson\gson\2.9.0\gson-2.9.0.jar;C:\Users\ASUS\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.14.2\jackson-core-2.14.2.jar;C:\Users\ASUS\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.14.2\jackson-databind-2.14.2.jar;C:\Users\ASUS\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.14.2\jackson-annotations-2.14.2.jar;C:\Users\ASUS\.m2\repository\commons-codec\commons-codec\1.15\commons-codec-1.15.jar;C:\Users\ASUS\.m2\repository\commons-io\commons-io\2.11.0\commons-io-2.11.0.jar;C:\Users\ASUS\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\ASUS\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\ASUS\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\ASUS\.m2\repository\org\seleniumhq\selenium\selenium-java\4.8.0\selenium-java-4.8.0.jar;C:\Users\ASUS\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v107\4.8.0\selenium-devtools-v107-4.8.0.jar;C:\Users\ASUS\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v108\4.8.0\selenium-devtools-v108-4.8.0.jar;C:\Users\ASUS\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v109\4.8.0\selenium-devtools-v109-4.8.0.jar;C:\Users\ASUS\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.8.0\selenium-devtools-v85-4.8.0.jar;C:\Users\ASUS\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.8.0\selenium-remote-driver-4.8.0.jar;C:\Users\ASUS\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\ASUS\.m2\repository\io\netty\netty-buffer\4.1.87.Final\netty-buffer-4.1.87.Final.jar;C:\Users\ASUS\.m2\repository\io\netty\netty-codec-http\4.1.87.Final\netty-codec-http-4.1.87.Final.jar;C:\Users\ASUS\.m2\repository\io\netty\netty-codec\4.1.87.Final\netty-codec-4.1.87.Final.jar;C:\Users\ASUS\.m2\repository\io\netty\netty-handler\4.1.87.Final\netty-handler-4.1.87.Final.jar;C:\Users\ASUS\.m2\repository\io\netty\netty-common\4.1.87.Final\netty-common-4.1.87.Final.jar;C:\Users\ASUS\.m2\repository\io\netty\netty-transport-classes-epoll\4.1.87.Final\netty-transport-classes-epoll-4.1.87.Final.jar;C:\Users\ASUS\.m2\repository\io\netty\netty-transport-classes-kqueue\4.1.87.Final\netty-transport-classes-kqueue-4.1.87.Final.jar;C:\Users\ASUS\.m2\repository\io\netty\netty-transport-native-epoll\4.1.87.Final\netty-transport-native-epoll-4.1.87.Final.jar;C:\Users\ASUS\.m2\repository\io\netty\netty-transport-native-kqueue\4.1.87.Final\netty-transport-native-kqueue-4.1.87.Final.jar;C:\Users\ASUS\.m2\repository\io\netty\netty-transport-native-unix-common\4.1.87.Final\netty-transport-native-unix-common-4.1.87.Final.jar;C:\Users\ASUS\.m2\repository\io\netty\netty-transport\4.1.87.Final\netty-transport-4.1.87.Final.jar;C:\Users\ASUS\.m2\repository\io\netty\netty-resolver\4.1.87.Final\netty-resolver-4.1.87.Final.jar;C:\Users\ASUS\.m2\repository\io\opentelemetry\opentelemetry-api\1.22.0\opentelemetry-api-1.22.0.jar;C:\Users\ASUS\.m2\repository\io\opentelemetry\opentelemetry-context\1.22.0\opentelemetry-context-1.22.0.jar;C:\Users\ASUS\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.22.0\opentelemetry-exporter-logging-1.22.0.jar;C:\Users\ASUS\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.22.0\opentelemetry-sdk-metrics-1.22.0.jar;C:\Users\ASUS\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.22.0-alpha\opentelemetry-sdk-logs-1.22.0-alpha.jar;C:\Users\ASUS\.m2\repository\io\opentelemetry\opentelemetry-api-logs\1.22.0-alpha\opentelemetry-api-logs-1.22.0-alpha.jar;C:\Users\ASUS\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.22.0\opentelemetry-sdk-common-1.22.0.jar;C:\Users\ASUS\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.22.0\opentelemetry-sdk-extension-autoconfigure-spi-1.22.0.jar;C:\Users\ASUS\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.22.0-alpha\opentelemetry-sdk-extension-autoconfigure-1.22.0-alpha.jar;C:\Users\ASUS\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.22.0\opentelemetry-sdk-trace-1.22.0.jar;C:\Users\ASUS\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.22.0\opentelemetry-sdk-1.22.0.jar;C:\Users\ASUS\.m2\repository\io\opentelemetry\opentelemetry-semconv\1.22.0-alpha\opentelemetry-semconv-1.22.0-alpha.jar;C:\Users\ASUS\.m2\repository\io\ous\jtoml\2.0.0\jtoml-2.0.0.jar;C:\Users\ASUS\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\ASUS\.m2\repository\org\asynchttpclient\async-http-client\2.12.3\async-http-client-2.12.3.jar;C:\Users\ASUS\.m2\repository\org\asynchttpclient\async-http-client-netty-utils\2.12.3\async-http-client-netty-utils-2.12.3.jar;C:\Users\ASUS\.m2\repository\io\netty\netty-codec-socks\4.1.60.Final\netty-codec-socks-4.1.60.Final.jar;C:\Users\ASUS\.m2\repository\io\netty\netty-handler-proxy\4.1.60.Final\netty-handler-proxy-4.1.60.Final.jar;C:\Users\ASUS\.m2\repository\io\netty\netty-transport-native-epoll\4.1.60.Final\netty-transport-native-epoll-4.1.60.Final-linux-x86_64.jar;C:\Users\ASUS\.m2\repository\io\netty\netty-transport-native-kqueue\4.1.60.Final\netty-transport-native-kqueue-4.1.60.Final-osx-x86_64.jar;C:\Users\ASUS\.m2\repository\org\reactivestreams\reactive-streams\1.0.3\reactive-streams-1.0.3.jar;C:\Users\ASUS\.m2\repository\com\typesafe\netty\netty-reactive-streams\2.0.4\netty-reactive-streams-2.0.4.jar;C:\Users\ASUS\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.8.0\selenium-manager-4.8.0.jar;C:\Users\ASUS\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.8.0\selenium-safari-driver-4.8.0.jar;C:\Users\ASUS\.m2\repository\org\seleniumhq\selenium\selenium-api\4.8.0\selenium-api-4.8.0.jar;C:\Users\ASUS\.m2\repository\org\seleniumhq\selenium\selenium-support\4.8.0\selenium-support-4.8.0.jar;C:\Users\ASUS\.m2\repository\com\google\auto\service\auto-service-annotations\1.0.1\auto-service-annotations-1.0.1.jar;C:\Users\ASUS\.m2\repository\com\google\auto\service\auto-service\1.0.1\auto-service-1.0.1.jar;C:\Users\ASUS\.m2\repository\com\google\auto\auto-common\1.2\auto-common-1.2.jar;C:\Users\ASUS\.m2\repository\org\seleniumhq\selenium\selenium-json\4.8.0\selenium-json-4.8.0.jar;C:\Users\ASUS\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.8.0\selenium-chrome-driver-4.8.0.jar;C:\Users\ASUS\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.8.0\selenium-chromium-driver-4.8.0.jar;C:\Users\ASUS\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.8.0\selenium-firefox-driver-4.8.0.jar;C:\Users\ASUS\.m2\repository\org\seleniumhq\selenium\selenium-http\4.8.0\selenium-http-4.8.0.jar;C:\Users\ASUS\.m2\repository\dev\failsafe\failsafe\3.3.0\failsafe-3.3.0.jar;C:\Users\ASUS\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.8.0\selenium-edge-driver-4.8.0.jar;C:\Users\ASUS\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.8.0\selenium-ie-driver-4.8.0.jar;C:\Users\ASUS\.m2\repository\org\projectlombok\lombok\1.18.20\lombok-1.18.20.jar;C:\Users\ASUS\.m2\repository\io\appium\java-client\8.3.0\java-client-8.3.0.jar;C:\Users\ASUS\.m2\repository\commons-validator\commons-validator\1.7\commons-validator-1.7.jar;C:\Users\ASUS\.m2\repository\commons-digester\commons-digester\2.1\commons-digester-2.1.jar;C:\Users\ASUS\.m2\repository\org\apache\groovy\groovy\4.0.6\groovy-4.0.6.jar;C:\Users\ASUS\.m2\repository\net\sf\opencsv\opencsv\2.0\opencsv-2.0.jar;C:\Users\ASUS\.m2\repository\commons-beanutils\commons-beanutils\1.9.4\commons-beanutils-1.9.4.jar;C:\Users\ASUS\.m2\repository\org\apache\commons\commons-lang3\3.12.0\commons-lang3-3.12.0.jar;C:\Users\ASUS\.m2\repository\commons-collections\commons-collections\3.2.2\commons-collections-3.2.2.jar;C:\Users\ASUS\.m2\repository\org\fluentlenium\fluentlenium-core\0.10.2\fluentlenium-core-0.10.2.jar;C:\Users\ASUS\.m2\repository\io\github\bonigarcia\webdrivermanager\5.3.0\webdrivermanager-5.3.0.jar;C:\Users\ASUS\.m2\repository\com\github\docker-java\docker-java\3.2.13\docker-java-3.2.13.jar;C:\Users\ASUS\.m2\repository\com\github\docker-java\docker-java-core\3.2.13\docker-java-core-3.2.13.jar;C:\Users\ASUS\.m2\repository\com\github\docker-java\docker-java-api\3.2.13\docker-java-api-3.2.13.jar;C:\Users\ASUS\.m2\repository\org\apache\commons\commons-compress\1.21\commons-compress-1.21.jar;C:\Users\ASUS\.m2\repository\org\bouncycastle\bcpkix-jdk15on\1.64\bcpkix-jdk15on-1.64.jar;C:\Users\ASUS\.m2\repository\org\bouncycastle\bcprov-jdk15on\1.64\bcprov-jdk15on-1.64.jar;C:\Users\ASUS\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.30\jcl-over-slf4j-1.7.30.jar;C:\Users\ASUS\.m2\repository\com\github\docker-java\docker-java-transport-httpclient5\3.2.13\docker-java-transport-httpclient5-3.2.13.jar;C:\Users\ASUS\.m2\repository\com\github\docker-java\docker-java-transport\3.2.13\docker-java-transport-3.2.13.jar;C:\Users\ASUS\.m2\repository\net\java\dev\jna\jna\5.8.0\jna-5.8.0.jar;C:\Users\ASUS\.m2\repository\org\brotli\dec\0.1.2\dec-0.1.2.jar;C:\Users\ASUS\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.1.3\httpclient5-5.1.3.jar;C:\Users\ASUS\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.1.3\httpcore5-5.1.3.jar;C:\Users\ASUS\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.1.3\httpcore5-h2-5.1.3.jar;C:\Users\ASUS\.m2\repository\com\jhlabs\filters\2.0.235\filters-2.0.235.jar;C:\Users\ASUS\.m2\repository\com\paulhammant\ngwebdriver\1.1.6\ngwebdriver-1.1.6.jar;C:\Users\ASUS\.m2\repository\joda-time\joda-time\2.8.2\joda-time-2.8.2.jar;C:\Users\ASUS\.m2\repository\com\google\jimfs\jimfs\1.2\jimfs-1.2.jar;C:\Users\ASUS\.m2\repository\org\mockito\mockito-core\3.3.3\mockito-core-3.3.3.jar;C:\Users\ASUS\.m2\repository\javax\xml\bind\jaxb-api\2.3.1\jaxb-api-2.3.1.jar;C:\Users\ASUS\.m2\repository\javax\activation\javax.activation-api\1.2.0\javax.activation-api-1.2.0.jar;C:\Users\ASUS\.m2\repository\com\sun\xml\bind\jaxb-core\2.3.0.1\jaxb-core-2.3.0.1.jar;C:\Users\ASUS\.m2\repository\com\sun\xml\bind\jaxb-impl\2.3.3\jaxb-impl-2.3.3.jar;C:\Users\ASUS\.m2\repository\jakarta\xml\bind\jakarta.xml.bind-api\2.3.3\jakarta.xml.bind-api-2.3.3.jar;C:\Users\ASUS\.m2\repository\com\sun\activation\jakarta.activation\1.2.2\jakarta.activation-1.2.2.jar;C:\Users\ASUS\.m2\repository\javax\activation\activation\1.1.1\activation-1.1.1.jar;C:\Users\ASUS\.m2\repository\net\serenity-bdd\serenity-cucumber\3.6.12\serenity-cucumber-3.6.12.jar;C:\Users\ASUS\.m2\repository\io\cucumber\cucumber-core\7.11.0\cucumber-core-7.11.0.jar;C:\Users\ASUS\.m2\repository\io\cucumber\cucumber-gherkin\7.11.0\cucumber-gherkin-7.11.0.jar;C:\Users\ASUS\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.11.0\cucumber-gherkin-messages-7.11.0.jar;C:\Users\ASUS\.m2\repository\io\cucumber\gherkin\26.0.3\gherkin-26.0.3.jar;C:\Users\ASUS\.m2\repository\io\cucumber\messages\21.0.1\messages-21.0.1.jar;C:\Users\ASUS\.m2\repository\io\cucumber\tag-expressions\5.0.1\tag-expressions-5.0.1.jar;C:\Users\ASUS\.m2\repository\io\cucumber\cucumber-expressions\16.1.1\cucumber-expressions-16.1.1.jar;C:\Users\ASUS\.m2\repository\io\cucumber\datatable\7.11.0\datatable-7.11.0.jar;C:\Users\ASUS\.m2\repository\io\cucumber\cucumber-plugin\7.11.0\cucumber-plugin-7.11.0.jar;C:\Users\ASUS\.m2\repository\io\cucumber\docstring\7.11.0\docstring-7.11.0.jar;C:\Users\ASUS\.m2\repository\io\cucumber\html-formatter\20.2.1\html-formatter-20.2.1.jar;C:\Users\ASUS\.m2\repository\io\cucumber\junit-xml-formatter\0.1.0\junit-xml-formatter-0.1.0.jar;C:\Users\ASUS\.m2\repository\io\cucumber\ci-environment\9.1.0\ci-environment-9.1.0.jar;C:\Users\ASUS\.m2\repository\io\cucumber\cucumber-java\7.11.0\cucumber-java-7.11.0.jar;C:\Users\ASUS\.m2\repository\io\cucumber\cucumber-junit\7.11.0\cucumber-junit-7.11.0.jar;C:\Users\ASUS\.m2\repository\org\apache\commons\commons-csv\1.5\commons-csv-1.5.jar;C:\Users\ASUS\.m2\repository\net\serenity-bdd\serenity-screenplay\3.6.12\serenity-screenplay-3.6.12.jar;C:\Users\ASUS\.m2\repository\net\serenity-bdd\serenity-screenplay-webdriver\3.6.12\serenity-screenplay-webdriver-3.6.12.jar;C:\Users\ASUS\.m2\repository\net\serenity-bdd\serenity-ensure\3.6.12\serenity-ensure-3.6.12.jar;C:\Users\ASUS\.m2\repository\net\serenity-bdd\serenity-junit\3.6.12\serenity-junit-3.6.12.jar;C:\Users\ASUS\.m2\repository\org\jetbrains\kotlin\kotlin-stdlib\1.7.21\kotlin-stdlib-1.7.21.jar;C:\Users\ASUS\.m2\repository\org\jetbrains\kotlin\kotlin-stdlib-common\1.7.21\kotlin-stdlib-common-1.7.21.jar;C:\Users\ASUS\.m2\repository\org\jetbrains\annotations\13.0\annotations-13.0.jar;C:\Users\ASUS\.m2\repository\org\junit\platform\junit-platform-launcher\1.9.2\junit-platform-launcher-1.9.2.jar;C:\Users\ASUS\.m2\repository\org\junit\platform\junit-platform-engine\1.9.2\junit-platform-engine-1.9.2.jar;C:\Users\ASUS\.m2\repository\org\junit\platform\junit-platform-commons\1.9.2\junit-platform-commons-1.9.2.jar;C:\Users\ASUS\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\ASUS\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.9.2\junit-jupiter-engine-5.9.2.jar;C:\Users\ASUS\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.9.2\junit-jupiter-api-5.9.2.jar;C:\Users\ASUS\.m2\repository\org\junit\vintage\junit-vintage-engine\5.9.2\junit-vintage-engine-5.9.2.jar;C:\Users\ASUS\.m2\repository\ch\qos\logback\logback-classic\1.2.10\logback-classic-1.2.10.jar;C:\Users\ASUS\.m2\repository\ch\qos\logback\logback-core\1.2.10\logback-core-1.2.10.jar;C:\Users\ASUS\.m2\repository\org\slf4j\slf4j-api\1.7.32\slf4j-api-1.7.32.jar;C:\Users\ASUS\.m2\repository\org\assertj\assertj-core\3.24.2\assertj-core-3.24.2.jar;C:\Users\ASUS\.m2\repository\net\bytebuddy\byte-buddy\1.12.21\byte-buddy-1.12.21.jar;C:\Users\ASUS\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\ASUS\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\ASUS\.m2\repository\net\serenity-bdd\serenity-rest-assured\3.6.12\serenity-rest-assured-3.6.12.jar;C:\Users\ASUS\.m2\repository\org\apache\groovy\groovy-json\4.0.6\groovy-json-4.0.6.jar;C:\Users\ASUS\.m2\repository\org\apache\groovy\groovy-xml\4.0.6\groovy-xml-4.0.6.jar;C:\Users\ASUS\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\ASUS\.m2\repository\io\rest-assured\rest-assured\5.2.0\rest-assured-5.2.0.jar;C:\Users\ASUS\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\ASUS\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\ASUS\.m2\repository\io\rest-assured\json-path\5.2.0\json-path-5.2.0.jar;C:\Users\ASUS\.m2\repository\io\rest-assured\rest-assured-common\5.2.0\rest-assured-common-5.2.0.jar;C:\Users\ASUS\.m2\repository\io\rest-assured\xml-path\5.2.0\xml-path-5.2.0.jar;C:\Users\ASUS\.m2\repository\org\json\json\20230227\json-20230227.jar;C:\Users\ASUS\.m2\repository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="user.timezone" value="Asia/Bangkok"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="user.country" value="ID"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_351\jre\bin"/>
+    <property name="sun.java.command" value="C:\Users\ASUS\AppData\Local\Temp\surefire2924657775055089484\surefirebooter4060480540571873110.jar C:\Users\ASUS\AppData\Local\Temp\surefire2924657775055089484 2023-06-16T11-45-01_928-jvmRun1 surefire1382040591626558904tmp surefire_03746342240843675841tmp"/>
+    <property name="surefire.test.class.path" value="E:\SEMESTER VI\KAMPUS MERDEKA\capstone-pos\automation\api-automation-pos\target\test-classes;E:\SEMESTER VI\KAMPUS MERDEKA\capstone-pos\automation\api-automation-pos\target\api-automation-1.0-SNAPSHOT.jar;C:\Users\ASUS\.m2\repository\net\serenity-bdd\serenity-core\3.6.12\serenity-core-3.6.12.jar;C:\Users\ASUS\.m2\repository\net\serenity-bdd\serenity-model\3.6.12\serenity-model-3.6.12.jar;C:\Users\ASUS\.m2\repository\org\apache\commons\commons-text\1.10.0\commons-text-1.10.0.jar;C:\Users\ASUS\.m2\repository\commons-net\commons-net\3.9.0\commons-net-3.9.0.jar;C:\Users\ASUS\.m2\repository\com\google\guava\guava\31.1-jre\guava-31.1-jre.jar;C:\Users\ASUS\.m2\repository\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar;C:\Users\ASUS\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\ASUS\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\ASUS\.m2\repository\org\checkerframework\checker-qual\3.12.0\checker-qual-3.12.0.jar;C:\Users\ASUS\.m2\repository\com\google\errorprone\error_prone_annotations\2.11.0\error_prone_annotations-2.11.0.jar;C:\Users\ASUS\.m2\repository\com\google\j2objc\j2objc-annotations\1.3\j2objc-annotations-1.3.jar;C:\Users\ASUS\.m2\repository\com\google\inject\guice\5.1.0\guice-5.1.0.jar;C:\Users\ASUS\.m2\repository\javax\inject\javax.inject\1\javax.inject-1.jar;C:\Users\ASUS\.m2\repository\aopalliance\aopalliance\1.0\aopalliance-1.0.jar;C:\Users\ASUS\.m2\repository\org\jsoup\jsoup\1.14.3\jsoup-1.14.3.jar;C:\Users\ASUS\.m2\repository\com\thoughtworks\xstream\xstream\1.4.20\xstream-1.4.20.jar;C:\Users\ASUS\.m2\repository\io\github\x-stream\mxparser\1.2.2\mxparser-1.2.2.jar;C:\Users\ASUS\.m2\repository\xmlpull\xmlpull\1.1.3.1\xmlpull-1.1.3.1.jar;C:\Users\ASUS\.m2\repository\com\typesafe\config\1.4.2\config-1.4.2.jar;C:\Users\ASUS\.m2\repository\org\imgscalr\imgscalr-lib\4.2\imgscalr-lib-4.2.jar;C:\Users\ASUS\.m2\repository\org\awaitility\awaitility\4.2.0\awaitility-4.2.0.jar;C:\Users\ASUS\.m2\repository\org\freemarker\freemarker\2.3.31\freemarker-2.3.31.jar;C:\Users\ASUS\.m2\repository\io\github\classgraph\classgraph\4.8.138\classgraph-4.8.138.jar;C:\Users\ASUS\.m2\repository\net\sourceforge\jexcelapi\jxl\2.6.12\jxl-2.6.12.jar;C:\Users\ASUS\.m2\repository\net\bytebuddy\byte-buddy-agent\1.12.22\byte-buddy-agent-1.12.22.jar;C:\Users\ASUS\.m2\repository\org\objenesis\objenesis\3.1\objenesis-3.1.jar;C:\Users\ASUS\.m2\repository\net\serenity-bdd\serenity-reports\3.6.12\serenity-reports-3.6.12.jar;C:\Users\ASUS\.m2\repository\net\serenity-bdd\serenity-stats\3.6.12\serenity-stats-3.6.12.jar;C:\Users\ASUS\.m2\repository\net\serenity-bdd\serenity-reports-configuration\3.6.12\serenity-reports-configuration-3.6.12.jar;C:\Users\ASUS\.m2\repository\com\vladsch\flexmark\flexmark-all\0.34.30\flexmark-all-0.34.30.jar;C:\Users\ASUS\.m2\repository\com\vladsch\flexmark\flexmark\0.34.30\flexmark-0.34.30.jar;C:\Users\ASUS\.m2\repository\com\vladsch\flexmark\flexmark-ext-abbreviation\0.34.30\flexmark-ext-abbreviation-0.34.30.jar;C:\Users\ASUS\.m2\repository\com\vladsch\flexmark\flexmark-ext-admonition\0.34.30\flexmark-ext-admonition-0.34.30.jar;C:\Users\ASUS\.m2\repository\com\vladsch\flexmark\flexmark-ext-anchorlink\0.34.30\flexmark-ext-anchorlink-0.34.30.jar;C:\Users\ASUS\.m2\repository\com\vladsch\flexmark\flexmark-ext-aside\0.34.30\flexmark-ext-aside-0.34.30.jar;C:\Users\ASUS\.m2\repository\com\vladsch\flexmark\flexmark-ext-attributes\0.34.30\flexmark-ext-attributes-0.34.30.jar;C:\Users\ASUS\.m2\repository\com\vladsch\flexmark\flexmark-ext-autolink\0.34.30\flexmark-ext-autolink-0.34.30.jar;C:\Users\ASUS\.m2\repository\org\nibor\autolink\autolink\0.6.0\autolink-0.6.0.jar;C:\Users\ASUS\.m2\repository\com\vladsch\flexmark\flexmark-ext-definition\0.34.30\flexmark-ext-definition-0.34.30.jar;C:\Users\ASUS\.m2\repository\com\vladsch\flexmark\flexmark-ext-emoji\0.34.30\flexmark-ext-emoji-0.34.30.jar;C:\Users\ASUS\.m2\repository\com\vladsch\flexmark\flexmark-ext-enumerated-reference\0.34.30\flexmark-ext-enumerated-reference-0.34.30.jar;C:\Users\ASUS\.m2\repository\com\vladsch\flexmark\flexmark-ext-escaped-character\0.34.30\flexmark-ext-escaped-character-0.34.30.jar;C:\Users\ASUS\.m2\repository\com\vladsch\flexmark\flexmark-ext-footnotes\0.34.30\flexmark-ext-footnotes-0.34.30.jar;C:\Users\ASUS\.m2\repository\com\vladsch\flexmark\flexmark-ext-gfm-issues\0.34.30\flexmark-ext-gfm-issues-0.34.30.jar;C:\Users\ASUS\.m2\repository\com\vladsch\flexmark\flexmark-ext-gfm-strikethrough\0.34.30\flexmark-ext-gfm-strikethrough-0.34.30.jar;C:\Users\ASUS\.m2\repository\com\vladsch\flexmark\flexmark-ext-gfm-tables\0.34.30\flexmark-ext-gfm-tables-0.34.30.jar;C:\Users\ASUS\.m2\repository\com\vladsch\flexmark\flexmark-ext-gfm-tasklist\0.34.30\flexmark-ext-gfm-tasklist-0.34.30.jar;C:\Users\ASUS\.m2\repository\com\vladsch\flexmark\flexmark-ext-gfm-users\0.34.30\flexmark-ext-gfm-users-0.34.30.jar;C:\Users\ASUS\.m2\repository\com\vladsch\flexmark\flexmark-ext-gitlab\0.34.30\flexmark-ext-gitlab-0.34.30.jar;C:\Users\ASUS\.m2\repository\com\vladsch\flexmark\flexmark-ext-jekyll-front-matter\0.34.30\flexmark-ext-jekyll-front-matter-0.34.30.jar;C:\Users\ASUS\.m2\repository\com\vladsch\flexmark\flexmark-ext-jekyll-tag\0.34.30\flexmark-ext-jekyll-tag-0.34.30.jar;C:\Users\ASUS\.m2\repository\com\vladsch\flexmark\flexmark-ext-media-tags\0.34.30\flexmark-ext-media-tags-0.34.30.jar;C:\Users\ASUS\.m2\repository\com\vladsch\flexmark\flexmark-test-util\0.34.30\flexmark-test-util-0.34.30.jar;C:\Users\ASUS\.m2\repository\com\vladsch\flexmark\flexmark-ext-ins\0.34.30\flexmark-ext-ins-0.34.30.jar;C:\Users\ASUS\.m2\repository\com\vladsch\flexmark\flexmark-ext-xwiki-macros\0.34.30\flexmark-ext-xwiki-macros-0.34.30.jar;C:\Users\ASUS\.m2\repository\com\vladsch\flexmark\flexmark-ext-superscript\0.34.30\flexmark-ext-superscript-0.34.30.jar;C:\Users\ASUS\.m2\repository\com\vladsch\flexmark\flexmark-ext-tables\0.34.30\flexmark-ext-tables-0.34.30.jar;C:\Users\ASUS\.m2\repository\com\vladsch\flexmark\flexmark-ext-toc\0.34.30\flexmark-ext-toc-0.34.30.jar;C:\Users\ASUS\.m2\repository\com\vladsch\flexmark\flexmark-ext-typographic\0.34.30\flexmark-ext-typographic-0.34.30.jar;C:\Users\ASUS\.m2\repository\com\vladsch\flexmark\flexmark-ext-wikilink\0.34.30\flexmark-ext-wikilink-0.34.30.jar;C:\Users\ASUS\.m2\repository\com\vladsch\flexmark\flexmark-ext-yaml-front-matter\0.34.30\flexmark-ext-yaml-front-matter-0.34.30.jar;C:\Users\ASUS\.m2\repository\com\vladsch\flexmark\flexmark-ext-youtube-embedded\0.34.30\flexmark-ext-youtube-embedded-0.34.30.jar;C:\Users\ASUS\.m2\repository\com\vladsch\flexmark\flexmark-formatter\0.34.30\flexmark-formatter-0.34.30.jar;C:\Users\ASUS\.m2\repository\com\vladsch\flexmark\flexmark-html-parser\0.34.30\flexmark-html-parser-0.34.30.jar;C:\Users\ASUS\.m2\repository\com\vladsch\flexmark\flexmark-jira-converter\0.34.30\flexmark-jira-converter-0.34.30.jar;C:\Users\ASUS\.m2\repository\com\vladsch\flexmark\flexmark-pdf-converter\0.34.30\flexmark-pdf-converter-0.34.30.jar;C:\Users\ASUS\.m2\repository\com\openhtmltopdf\openhtmltopdf-core\0.0.1-RC13\openhtmltopdf-core-0.0.1-RC13.jar;C:\Users\ASUS\.m2\repository\com\openhtmltopdf\openhtmltopdf-pdfbox\0.0.1-RC13\openhtmltopdf-pdfbox-0.0.1-RC13.jar;C:\Users\ASUS\.m2\repository\org\apache\pdfbox\pdfbox\2.0.8\pdfbox-2.0.8.jar;C:\Users\ASUS\.m2\repository\org\apache\pdfbox\fontbox\2.0.8\fontbox-2.0.8.jar;C:\Users\ASUS\.m2\repository\org\apache\pdfbox\xmpbox\2.0.8\xmpbox-2.0.8.jar;C:\Users\ASUS\.m2\repository\de\rototor\pdfbox\graphics2d\0.12\graphics2d-0.12.jar;C:\Users\ASUS\.m2\repository\com\openhtmltopdf\openhtmltopdf-rtl-support\0.0.1-RC13\openhtmltopdf-rtl-support-0.0.1-RC13.jar;C:\Users\ASUS\.m2\repository\com\ibm\icu\icu4j\59.1\icu4j-59.1.jar;C:\Users\ASUS\.m2\repository\com\openhtmltopdf\openhtmltopdf-jsoup-dom-converter\0.0.1-RC13\openhtmltopdf-jsoup-dom-converter-0.0.1-RC13.jar;C:\Users\ASUS\.m2\repository\com\vladsch\flexmark\flexmark-profile-pegdown\0.34.30\flexmark-profile-pegdown-0.34.30.jar;C:\Users\ASUS\.m2\repository\com\vladsch\flexmark\flexmark-util\0.34.30\flexmark-util-0.34.30.jar;C:\Users\ASUS\.m2\repository\com\vladsch\flexmark\flexmark-youtrack-converter\0.34.30\flexmark-youtrack-converter-0.34.30.jar;C:\Users\ASUS\.m2\repository\es\nitaur\markdown\txtmark\0.16\txtmark-0.16.jar;C:\Users\ASUS\.m2\repository\net\serenity-bdd\serenity-report-resources\3.6.12\serenity-report-resources-3.6.12.jar;C:\Users\ASUS\.m2\repository\com\google\code\gson\gson\2.9.0\gson-2.9.0.jar;C:\Users\ASUS\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.14.2\jackson-core-2.14.2.jar;C:\Users\ASUS\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.14.2\jackson-databind-2.14.2.jar;C:\Users\ASUS\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.14.2\jackson-annotations-2.14.2.jar;C:\Users\ASUS\.m2\repository\commons-codec\commons-codec\1.15\commons-codec-1.15.jar;C:\Users\ASUS\.m2\repository\commons-io\commons-io\2.11.0\commons-io-2.11.0.jar;C:\Users\ASUS\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\ASUS\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\ASUS\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\ASUS\.m2\repository\org\seleniumhq\selenium\selenium-java\4.8.0\selenium-java-4.8.0.jar;C:\Users\ASUS\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v107\4.8.0\selenium-devtools-v107-4.8.0.jar;C:\Users\ASUS\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v108\4.8.0\selenium-devtools-v108-4.8.0.jar;C:\Users\ASUS\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v109\4.8.0\selenium-devtools-v109-4.8.0.jar;C:\Users\ASUS\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.8.0\selenium-devtools-v85-4.8.0.jar;C:\Users\ASUS\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.8.0\selenium-remote-driver-4.8.0.jar;C:\Users\ASUS\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\ASUS\.m2\repository\io\netty\netty-buffer\4.1.87.Final\netty-buffer-4.1.87.Final.jar;C:\Users\ASUS\.m2\repository\io\netty\netty-codec-http\4.1.87.Final\netty-codec-http-4.1.87.Final.jar;C:\Users\ASUS\.m2\repository\io\netty\netty-codec\4.1.87.Final\netty-codec-4.1.87.Final.jar;C:\Users\ASUS\.m2\repository\io\netty\netty-handler\4.1.87.Final\netty-handler-4.1.87.Final.jar;C:\Users\ASUS\.m2\repository\io\netty\netty-common\4.1.87.Final\netty-common-4.1.87.Final.jar;C:\Users\ASUS\.m2\repository\io\netty\netty-transport-classes-epoll\4.1.87.Final\netty-transport-classes-epoll-4.1.87.Final.jar;C:\Users\ASUS\.m2\repository\io\netty\netty-transport-classes-kqueue\4.1.87.Final\netty-transport-classes-kqueue-4.1.87.Final.jar;C:\Users\ASUS\.m2\repository\io\netty\netty-transport-native-epoll\4.1.87.Final\netty-transport-native-epoll-4.1.87.Final.jar;C:\Users\ASUS\.m2\repository\io\netty\netty-transport-native-kqueue\4.1.87.Final\netty-transport-native-kqueue-4.1.87.Final.jar;C:\Users\ASUS\.m2\repository\io\netty\netty-transport-native-unix-common\4.1.87.Final\netty-transport-native-unix-common-4.1.87.Final.jar;C:\Users\ASUS\.m2\repository\io\netty\netty-transport\4.1.87.Final\netty-transport-4.1.87.Final.jar;C:\Users\ASUS\.m2\repository\io\netty\netty-resolver\4.1.87.Final\netty-resolver-4.1.87.Final.jar;C:\Users\ASUS\.m2\repository\io\opentelemetry\opentelemetry-api\1.22.0\opentelemetry-api-1.22.0.jar;C:\Users\ASUS\.m2\repository\io\opentelemetry\opentelemetry-context\1.22.0\opentelemetry-context-1.22.0.jar;C:\Users\ASUS\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.22.0\opentelemetry-exporter-logging-1.22.0.jar;C:\Users\ASUS\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.22.0\opentelemetry-sdk-metrics-1.22.0.jar;C:\Users\ASUS\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.22.0-alpha\opentelemetry-sdk-logs-1.22.0-alpha.jar;C:\Users\ASUS\.m2\repository\io\opentelemetry\opentelemetry-api-logs\1.22.0-alpha\opentelemetry-api-logs-1.22.0-alpha.jar;C:\Users\ASUS\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.22.0\opentelemetry-sdk-common-1.22.0.jar;C:\Users\ASUS\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.22.0\opentelemetry-sdk-extension-autoconfigure-spi-1.22.0.jar;C:\Users\ASUS\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.22.0-alpha\opentelemetry-sdk-extension-autoconfigure-1.22.0-alpha.jar;C:\Users\ASUS\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.22.0\opentelemetry-sdk-trace-1.22.0.jar;C:\Users\ASUS\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.22.0\opentelemetry-sdk-1.22.0.jar;C:\Users\ASUS\.m2\repository\io\opentelemetry\opentelemetry-semconv\1.22.0-alpha\opentelemetry-semconv-1.22.0-alpha.jar;C:\Users\ASUS\.m2\repository\io\ous\jtoml\2.0.0\jtoml-2.0.0.jar;C:\Users\ASUS\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\ASUS\.m2\repository\org\asynchttpclient\async-http-client\2.12.3\async-http-client-2.12.3.jar;C:\Users\ASUS\.m2\repository\org\asynchttpclient\async-http-client-netty-utils\2.12.3\async-http-client-netty-utils-2.12.3.jar;C:\Users\ASUS\.m2\repository\io\netty\netty-codec-socks\4.1.60.Final\netty-codec-socks-4.1.60.Final.jar;C:\Users\ASUS\.m2\repository\io\netty\netty-handler-proxy\4.1.60.Final\netty-handler-proxy-4.1.60.Final.jar;C:\Users\ASUS\.m2\repository\io\netty\netty-transport-native-epoll\4.1.60.Final\netty-transport-native-epoll-4.1.60.Final-linux-x86_64.jar;C:\Users\ASUS\.m2\repository\io\netty\netty-transport-native-kqueue\4.1.60.Final\netty-transport-native-kqueue-4.1.60.Final-osx-x86_64.jar;C:\Users\ASUS\.m2\repository\org\reactivestreams\reactive-streams\1.0.3\reactive-streams-1.0.3.jar;C:\Users\ASUS\.m2\repository\com\typesafe\netty\netty-reactive-streams\2.0.4\netty-reactive-streams-2.0.4.jar;C:\Users\ASUS\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.8.0\selenium-manager-4.8.0.jar;C:\Users\ASUS\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.8.0\selenium-safari-driver-4.8.0.jar;C:\Users\ASUS\.m2\repository\org\seleniumhq\selenium\selenium-api\4.8.0\selenium-api-4.8.0.jar;C:\Users\ASUS\.m2\repository\org\seleniumhq\selenium\selenium-support\4.8.0\selenium-support-4.8.0.jar;C:\Users\ASUS\.m2\repository\com\google\auto\service\auto-service-annotations\1.0.1\auto-service-annotations-1.0.1.jar;C:\Users\ASUS\.m2\repository\com\google\auto\service\auto-service\1.0.1\auto-service-1.0.1.jar;C:\Users\ASUS\.m2\repository\com\google\auto\auto-common\1.2\auto-common-1.2.jar;C:\Users\ASUS\.m2\repository\org\seleniumhq\selenium\selenium-json\4.8.0\selenium-json-4.8.0.jar;C:\Users\ASUS\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.8.0\selenium-chrome-driver-4.8.0.jar;C:\Users\ASUS\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.8.0\selenium-chromium-driver-4.8.0.jar;C:\Users\ASUS\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.8.0\selenium-firefox-driver-4.8.0.jar;C:\Users\ASUS\.m2\repository\org\seleniumhq\selenium\selenium-http\4.8.0\selenium-http-4.8.0.jar;C:\Users\ASUS\.m2\repository\dev\failsafe\failsafe\3.3.0\failsafe-3.3.0.jar;C:\Users\ASUS\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.8.0\selenium-edge-driver-4.8.0.jar;C:\Users\ASUS\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.8.0\selenium-ie-driver-4.8.0.jar;C:\Users\ASUS\.m2\repository\org\projectlombok\lombok\1.18.20\lombok-1.18.20.jar;C:\Users\ASUS\.m2\repository\io\appium\java-client\8.3.0\java-client-8.3.0.jar;C:\Users\ASUS\.m2\repository\commons-validator\commons-validator\1.7\commons-validator-1.7.jar;C:\Users\ASUS\.m2\repository\commons-digester\commons-digester\2.1\commons-digester-2.1.jar;C:\Users\ASUS\.m2\repository\org\apache\groovy\groovy\4.0.6\groovy-4.0.6.jar;C:\Users\ASUS\.m2\repository\net\sf\opencsv\opencsv\2.0\opencsv-2.0.jar;C:\Users\ASUS\.m2\repository\commons-beanutils\commons-beanutils\1.9.4\commons-beanutils-1.9.4.jar;C:\Users\ASUS\.m2\repository\org\apache\commons\commons-lang3\3.12.0\commons-lang3-3.12.0.jar;C:\Users\ASUS\.m2\repository\commons-collections\commons-collections\3.2.2\commons-collections-3.2.2.jar;C:\Users\ASUS\.m2\repository\org\fluentlenium\fluentlenium-core\0.10.2\fluentlenium-core-0.10.2.jar;C:\Users\ASUS\.m2\repository\io\github\bonigarcia\webdrivermanager\5.3.0\webdrivermanager-5.3.0.jar;C:\Users\ASUS\.m2\repository\com\github\docker-java\docker-java\3.2.13\docker-java-3.2.13.jar;C:\Users\ASUS\.m2\repository\com\github\docker-java\docker-java-core\3.2.13\docker-java-core-3.2.13.jar;C:\Users\ASUS\.m2\repository\com\github\docker-java\docker-java-api\3.2.13\docker-java-api-3.2.13.jar;C:\Users\ASUS\.m2\repository\org\apache\commons\commons-compress\1.21\commons-compress-1.21.jar;C:\Users\ASUS\.m2\repository\org\bouncycastle\bcpkix-jdk15on\1.64\bcpkix-jdk15on-1.64.jar;C:\Users\ASUS\.m2\repository\org\bouncycastle\bcprov-jdk15on\1.64\bcprov-jdk15on-1.64.jar;C:\Users\ASUS\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.30\jcl-over-slf4j-1.7.30.jar;C:\Users\ASUS\.m2\repository\com\github\docker-java\docker-java-transport-httpclient5\3.2.13\docker-java-transport-httpclient5-3.2.13.jar;C:\Users\ASUS\.m2\repository\com\github\docker-java\docker-java-transport\3.2.13\docker-java-transport-3.2.13.jar;C:\Users\ASUS\.m2\repository\net\java\dev\jna\jna\5.8.0\jna-5.8.0.jar;C:\Users\ASUS\.m2\repository\org\brotli\dec\0.1.2\dec-0.1.2.jar;C:\Users\ASUS\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.1.3\httpclient5-5.1.3.jar;C:\Users\ASUS\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.1.3\httpcore5-5.1.3.jar;C:\Users\ASUS\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.1.3\httpcore5-h2-5.1.3.jar;C:\Users\ASUS\.m2\repository\com\jhlabs\filters\2.0.235\filters-2.0.235.jar;C:\Users\ASUS\.m2\repository\com\paulhammant\ngwebdriver\1.1.6\ngwebdriver-1.1.6.jar;C:\Users\ASUS\.m2\repository\joda-time\joda-time\2.8.2\joda-time-2.8.2.jar;C:\Users\ASUS\.m2\repository\com\google\jimfs\jimfs\1.2\jimfs-1.2.jar;C:\Users\ASUS\.m2\repository\org\mockito\mockito-core\3.3.3\mockito-core-3.3.3.jar;C:\Users\ASUS\.m2\repository\javax\xml\bind\jaxb-api\2.3.1\jaxb-api-2.3.1.jar;C:\Users\ASUS\.m2\repository\javax\activation\javax.activation-api\1.2.0\javax.activation-api-1.2.0.jar;C:\Users\ASUS\.m2\repository\com\sun\xml\bind\jaxb-core\2.3.0.1\jaxb-core-2.3.0.1.jar;C:\Users\ASUS\.m2\repository\com\sun\xml\bind\jaxb-impl\2.3.3\jaxb-impl-2.3.3.jar;C:\Users\ASUS\.m2\repository\jakarta\xml\bind\jakarta.xml.bind-api\2.3.3\jakarta.xml.bind-api-2.3.3.jar;C:\Users\ASUS\.m2\repository\com\sun\activation\jakarta.activation\1.2.2\jakarta.activation-1.2.2.jar;C:\Users\ASUS\.m2\repository\javax\activation\activation\1.1.1\activation-1.1.1.jar;C:\Users\ASUS\.m2\repository\net\serenity-bdd\serenity-cucumber\3.6.12\serenity-cucumber-3.6.12.jar;C:\Users\ASUS\.m2\repository\io\cucumber\cucumber-core\7.11.0\cucumber-core-7.11.0.jar;C:\Users\ASUS\.m2\repository\io\cucumber\cucumber-gherkin\7.11.0\cucumber-gherkin-7.11.0.jar;C:\Users\ASUS\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.11.0\cucumber-gherkin-messages-7.11.0.jar;C:\Users\ASUS\.m2\repository\io\cucumber\gherkin\26.0.3\gherkin-26.0.3.jar;C:\Users\ASUS\.m2\repository\io\cucumber\messages\21.0.1\messages-21.0.1.jar;C:\Users\ASUS\.m2\repository\io\cucumber\tag-expressions\5.0.1\tag-expressions-5.0.1.jar;C:\Users\ASUS\.m2\repository\io\cucumber\cucumber-expressions\16.1.1\cucumber-expressions-16.1.1.jar;C:\Users\ASUS\.m2\repository\io\cucumber\datatable\7.11.0\datatable-7.11.0.jar;C:\Users\ASUS\.m2\repository\io\cucumber\cucumber-plugin\7.11.0\cucumber-plugin-7.11.0.jar;C:\Users\ASUS\.m2\repository\io\cucumber\docstring\7.11.0\docstring-7.11.0.jar;C:\Users\ASUS\.m2\repository\io\cucumber\html-formatter\20.2.1\html-formatter-20.2.1.jar;C:\Users\ASUS\.m2\repository\io\cucumber\junit-xml-formatter\0.1.0\junit-xml-formatter-0.1.0.jar;C:\Users\ASUS\.m2\repository\io\cucumber\ci-environment\9.1.0\ci-environment-9.1.0.jar;C:\Users\ASUS\.m2\repository\io\cucumber\cucumber-java\7.11.0\cucumber-java-7.11.0.jar;C:\Users\ASUS\.m2\repository\io\cucumber\cucumber-junit\7.11.0\cucumber-junit-7.11.0.jar;C:\Users\ASUS\.m2\repository\org\apache\commons\commons-csv\1.5\commons-csv-1.5.jar;C:\Users\ASUS\.m2\repository\net\serenity-bdd\serenity-screenplay\3.6.12\serenity-screenplay-3.6.12.jar;C:\Users\ASUS\.m2\repository\net\serenity-bdd\serenity-screenplay-webdriver\3.6.12\serenity-screenplay-webdriver-3.6.12.jar;C:\Users\ASUS\.m2\repository\net\serenity-bdd\serenity-ensure\3.6.12\serenity-ensure-3.6.12.jar;C:\Users\ASUS\.m2\repository\net\serenity-bdd\serenity-junit\3.6.12\serenity-junit-3.6.12.jar;C:\Users\ASUS\.m2\repository\org\jetbrains\kotlin\kotlin-stdlib\1.7.21\kotlin-stdlib-1.7.21.jar;C:\Users\ASUS\.m2\repository\org\jetbrains\kotlin\kotlin-stdlib-common\1.7.21\kotlin-stdlib-common-1.7.21.jar;C:\Users\ASUS\.m2\repository\org\jetbrains\annotations\13.0\annotations-13.0.jar;C:\Users\ASUS\.m2\repository\org\junit\platform\junit-platform-launcher\1.9.2\junit-platform-launcher-1.9.2.jar;C:\Users\ASUS\.m2\repository\org\junit\platform\junit-platform-engine\1.9.2\junit-platform-engine-1.9.2.jar;C:\Users\ASUS\.m2\repository\org\junit\platform\junit-platform-commons\1.9.2\junit-platform-commons-1.9.2.jar;C:\Users\ASUS\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\ASUS\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.9.2\junit-jupiter-engine-5.9.2.jar;C:\Users\ASUS\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.9.2\junit-jupiter-api-5.9.2.jar;C:\Users\ASUS\.m2\repository\org\junit\vintage\junit-vintage-engine\5.9.2\junit-vintage-engine-5.9.2.jar;C:\Users\ASUS\.m2\repository\ch\qos\logback\logback-classic\1.2.10\logback-classic-1.2.10.jar;C:\Users\ASUS\.m2\repository\ch\qos\logback\logback-core\1.2.10\logback-core-1.2.10.jar;C:\Users\ASUS\.m2\repository\org\slf4j\slf4j-api\1.7.32\slf4j-api-1.7.32.jar;C:\Users\ASUS\.m2\repository\org\assertj\assertj-core\3.24.2\assertj-core-3.24.2.jar;C:\Users\ASUS\.m2\repository\net\bytebuddy\byte-buddy\1.12.21\byte-buddy-1.12.21.jar;C:\Users\ASUS\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\ASUS\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\ASUS\.m2\repository\net\serenity-bdd\serenity-rest-assured\3.6.12\serenity-rest-assured-3.6.12.jar;C:\Users\ASUS\.m2\repository\org\apache\groovy\groovy-json\4.0.6\groovy-json-4.0.6.jar;C:\Users\ASUS\.m2\repository\org\apache\groovy\groovy-xml\4.0.6\groovy-xml-4.0.6.jar;C:\Users\ASUS\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\ASUS\.m2\repository\io\rest-assured\rest-assured\5.2.0\rest-assured-5.2.0.jar;C:\Users\ASUS\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\ASUS\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\ASUS\.m2\repository\io\rest-assured\json-path\5.2.0\json-path-5.2.0.jar;C:\Users\ASUS\.m2\repository\io\rest-assured\rest-assured-common\5.2.0\rest-assured-common-5.2.0.jar;C:\Users\ASUS\.m2\repository\io\rest-assured\xml-path\5.2.0\xml-path-5.2.0.jar;C:\Users\ASUS\.m2\repository\org\json\json\20230227\json-20230227.jar;C:\Users\ASUS\.m2\repository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\ASUS"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_351\jre"/>
+    <property name="basedir" value="E:\SEMESTER VI\KAMPUS MERDEKA\capstone-pos\automation\api-automation-pos"/>
+    <property name="file.separator" value="\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="C:\Users\ASUS\AppData\Local\Temp\surefire2924657775055089484\surefirebooter4060480540571873110.jar"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_351\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_351\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_351\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_351\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_351\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_351\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_351\jre\classes"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="1.8.0_351-b10"/>
+    <property name="user.name" value="ASUS"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_351\jre\lib\endorsed"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\ASUS\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\ASUS\AppData\Local\Temp\"/>
+    <property name="java.version" value="1.8.0_351"/>
+    <property name="user.dir" value="E:\SEMESTER VI\KAMPUS MERDEKA\capstone-pos\automation\api-automation-pos"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_351\jre\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\xampp\php;C:\ProgramData\ComposerSetup\bin;C:\Program Files\PuTTY\;C:\Program Files\Docker\Docker\resources\bin;E:\SEMESTER VI\apache-maven-3.9.1\bin;C:\Program Files\Java\jdk1.8.0_351\bin;C:\Program Files\Java\jdk1.8.0_351\bin;C:\Program Files\nodejs\;C:\Users\ASUS\AppData\Local\Android\Sdk\;C:\Users\ASUS\AppData\Local\Android\Sdk\platform-tools;C:\Users\ASUS\AppData\Local\Microsoft\WindowsApps;C:\Users\ASUS\AppData\Local\Programs\Microsoft VS Code\bin;C:\flutter\bin;C:\Users\ASUS\AppData\Roaming\Composer\vendor\bin;E:\SEMESTER V\Mobile\flutter\bin;C:\Users\ASUS\AppData\Roaming\npm;."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="25.351-b10"/>
+    <property name="java.specification.maintenance.version" value="4"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_351\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="52.0"/>
+  </properties>
+  <testcase name="POST - As a admin I can login" classname="User #1" time="9.249">
+    <system-out><![CDATA[11:45:06.174 [main] DEBUG net.thucydides.core.guice.Injectors - Created injector for module net.thucydides.core.guice.ThucydidesModule
+11:45:06.839 [main] INFO io.cucumber.core.plugin.SerenityReporter - Running feature from file:///E:/SEMESTER%20VI/KAMPUS%20MERDEKA/capstone-pos/automation/api-automation-pos/src/test/resources/api/Authentication/LoginAdmin.feature
+11:45:06.840 [main] WARN io.cucumber.core.plugin.SerenityReporter - Feature from file:///E:/SEMESTER%20VI/KAMPUS%20MERDEKA/capstone-pos/automation/api-automation-pos/src/test/resources/api/Authentication/LoginAdmin.feature is not under the 'features' directory. Requirements report will not be correctly generated!
+11:45:07.161 [main] DEBUG net.thucydides.core.guice.Injectors - Created injector for module net.thucydides.core.guice.webdriver.WebDriverModule
+11:45:07.206 [main] INFO  - 
+
+-------------------------------------------------------------------------------------
+     _______. _______ .______       _______ .__   __.  __  .___________.____    ____ 
+    /       ||   ____||   _  \     |   ____||  \ |  | |  | |           |\   \  /   / 
+   |   (----`|  |__   |  |_)  |    |  |__   |   \|  | |  | `---|  |----` \   \/   /  
+    \   \    |   __|  |      /     |   __|  |  . `  | |  |     |  |       \_    _/   
+.----)   |   |  |____ |  |\  \----.|  |____ |  |\   | |  |     |  |         |  |     
+|_______/    |_______|| _| `._____||_______||__| \__| |__|     |__|         |__|    
+                                                                                     
+ News and tutorials at http://www.serenity-bdd.info                                  
+ Documentation at https://wakaleo.gitbooks.io/the-serenity-book/content/             
+ Join the Serenity Community on Gitter: https://gitter.im/serenity-bdd/serenity-core 
+ Serenity BDD Support and Training at http://serenity-bdd.info/#/trainingandsupport  
+-------------------------------------------------------------------------------------
+
+11:45:07.212 [main] DEBUG net.thucydides.core.steps.StepEventBus - Test suite started for story net.thucydides.core.model.Story@e8eae814
+11:45:07.220 [main] INFO  - Test Suite Started: User
+11:45:07.331 [main] INFO io.cucumber.core.plugin.SerenityReporter - Running feature from file:///E:/SEMESTER%20VI/KAMPUS%20MERDEKA/capstone-pos/automation/api-automation-pos/src/test/resources/api/Cashier/Cashier.feature
+11:45:07.332 [main] WARN io.cucumber.core.plugin.SerenityReporter - Feature from file:///E:/SEMESTER%20VI/KAMPUS%20MERDEKA/capstone-pos/automation/api-automation-pos/src/test/resources/api/Cashier/Cashier.feature is not under the 'features' directory. Requirements report will not be correctly generated!
+11:45:07.344 [main] DEBUG net.thucydides.core.steps.StepEventBus - Test suite started for story net.thucydides.core.model.Story@6cdac86e
+11:45:07.345 [main] INFO  - Test Suite Started: User
+11:45:07.346 [main] INFO io.cucumber.core.plugin.SerenityReporter - Running feature from file:///E:/SEMESTER%20VI/KAMPUS%20MERDEKA/capstone-pos/automation/api-automation-pos/src/test/resources/api/Order/Order.feature
+11:45:07.346 [main] WARN io.cucumber.core.plugin.SerenityReporter - Feature from file:///E:/SEMESTER%20VI/KAMPUS%20MERDEKA/capstone-pos/automation/api-automation-pos/src/test/resources/api/Order/Order.feature is not under the 'features' directory. Requirements report will not be correctly generated!
+11:45:07.355 [main] DEBUG net.thucydides.core.steps.StepEventBus - Test suite started for story net.thucydides.core.model.Story@8717ae21
+11:45:07.356 [main] INFO  - Test Suite Started: Order
+11:45:07.358 [main] INFO io.cucumber.core.plugin.SerenityReporter - Running feature from file:///E:/SEMESTER%20VI/KAMPUS%20MERDEKA/capstone-pos/automation/api-automation-pos/src/test/resources/api/Authentication/LoginAdmin.feature
+11:45:07.358 [main] WARN io.cucumber.core.plugin.SerenityReporter - Feature from file:///E:/SEMESTER%20VI/KAMPUS%20MERDEKA/capstone-pos/automation/api-automation-pos/src/test/resources/api/Authentication/LoginAdmin.feature is not under the 'features' directory. Requirements report will not be correctly generated!
+11:45:07.364 [main] DEBUG net.thucydides.core.steps.StepEventBus - Test suite started for story net.thucydides.core.model.Story@e8eae814
+11:45:07.365 [main] INFO  - Test Suite Started: User
+
+@TC01-LoginPositiveAdmin
+Scenario: POST - As a admin I can login           &amp#27;[90m# src/test/resources/api/Authentication/LoginAdmin.feature:7&amp#27;[0m
+11:45:07.657 [main] INFO io.cucumber.core.plugin.SerenityReporter - Running feature from file:///E:/SEMESTER%20VI/KAMPUS%20MERDEKA/capstone-pos/automation/api-automation-pos/src/test/resources/api/Authentication/LoginAdmin.feature
+11:45:07.658 [main] WARN io.cucumber.core.plugin.SerenityReporter - Feature from file:///E:/SEMESTER%20VI/KAMPUS%20MERDEKA/capstone-pos/automation/api-automation-pos/src/test/resources/api/Authentication/LoginAdmin.feature is not under the 'features' directory. Requirements report will not be correctly generated!
+11:45:07.953 [main] INFO  - 
+  _____   ___   ___   _____     ___   _____     _     ___   _____   ___   ___  
+ |_   _| | __| / __| |_   _|   / __| |_   _|   /_\   | _ \ |_   _| | __| |   \ 
+   | |   | _|  \__ \   | |     \__ \   | |    / _ \  |   /   | |   | _|  | |) |
+   |_|   |___| |___/   |_|     |___/   |_|   /_/ \_\ |_|_\   |_|   |___| |___/ 
+
+POST - As a admin I can login(user;post---as-a-admin-i-can-login)
+--------------------------------------------------------------------------------
+11:45:09.180 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: LoginSteps.adminSetTheApiPOSTEndpoint - cashier set the api POST endpoint
+11:45:09.189 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: cashier set the api POST endpoint
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32madmin set the api POST endpoint&amp#27;[0m           &amp#27;[90m# starter.stepdefinitions.Authentication.LoginSteps.adminSetTheApiPOSTEndpoint()&amp#27;[0m
+11:45:09.212 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: LoginSteps.adminSendHTTPPOSTRequest - cashier send HTTP POST request
+11:45:12.173 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: LoginPage.iSendGETHTTPRequest - cashier set the api POST endpoint
+11:45:12.174 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: cashier set the api POST endpoint
+11:45:14.220 [main] DEBUG org.apache.http.impl.conn.BasicClientConnectionManager - Get connection for route {}->http://128.199.206.32:8000
+11:45:14.237 [main] DEBUG org.apache.http.impl.conn.DefaultClientConnectionOperator - Connecting to 128.199.206.32:8000
+11:45:14.299 [main] DEBUG org.apache.http.client.protocol.RequestAddCookies - CookieSpec selected: ignoreCookies
+11:45:14.302 [main] DEBUG org.apache.http.client.protocol.RequestAuthCache - Auth cache not set in the context
+11:45:14.302 [main] DEBUG org.apache.http.client.protocol.RequestTargetAuthentication - Target auth state: UNCHALLENGED
+11:45:14.303 [main] DEBUG org.apache.http.client.protocol.RequestProxyAuthentication - Proxy auth state: UNCHALLENGED
+11:45:14.303 [main] DEBUG org.apache.http.impl.client.DefaultHttpClient - Attempt 1 to execute request
+11:45:14.303 [main] DEBUG org.apache.http.impl.conn.DefaultClientConnection - Sending request: POST /api/v1/admin/login HTTP/1.1
+11:45:14.304 [main] DEBUG org.apache.http.wire -  >> "POST /api/v1/admin/login HTTP/1.1[\r][\n]"
+11:45:14.305 [main] DEBUG org.apache.http.wire -  >> "Accept: */*[\r][\n]"
+11:45:14.305 [main] DEBUG org.apache.http.wire -  >> "Content-Type: application/json[\r][\n]"
+11:45:14.305 [main] DEBUG org.apache.http.wire -  >> "Content-Length: 39[\r][\n]"
+11:45:14.305 [main] DEBUG org.apache.http.wire -  >> "Host: 128.199.206.32:8000[\r][\n]"
+11:45:14.306 [main] DEBUG org.apache.http.wire -  >> "Connection: Keep-Alive[\r][\n]"
+11:45:14.306 [main] DEBUG org.apache.http.wire -  >> "User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_351)[\r][\n]"
+11:45:14.306 [main] DEBUG org.apache.http.wire -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+11:45:14.306 [main] DEBUG org.apache.http.wire -  >> "[\r][\n]"
+11:45:14.306 [main] DEBUG org.apache.http.headers - >> POST /api/v1/admin/login HTTP/1.1
+11:45:14.306 [main] DEBUG org.apache.http.headers - >> Accept: */*
+11:45:14.306 [main] DEBUG org.apache.http.headers - >> Content-Type: application/json
+11:45:14.307 [main] DEBUG org.apache.http.headers - >> Content-Length: 39
+11:45:14.307 [main] DEBUG org.apache.http.headers - >> Host: 128.199.206.32:8000
+11:45:14.307 [main] DEBUG org.apache.http.headers - >> Connection: Keep-Alive
+11:45:14.307 [main] DEBUG org.apache.http.headers - >> User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_351)
+11:45:14.307 [main] DEBUG org.apache.http.headers - >> Accept-Encoding: gzip,deflate
+11:45:14.308 [main] DEBUG org.apache.http.wire -  >> "{"password":"admin","username":"admin"}"
+11:45:14.646 [main] DEBUG org.apache.http.wire -  << "HTTP/1.1 200 OK[\r][\n]"
+11:45:14.649 [main] DEBUG org.apache.http.wire -  << "Content-Type: application/json; charset=UTF-8[\r][\n]"
+11:45:14.649 [main] DEBUG org.apache.http.wire -  << "Vary: Origin[\r][\n]"
+11:45:14.650 [main] DEBUG org.apache.http.wire -  << "Date: Fri, 16 Jun 2023 04:45:14 GMT[\r][\n]"
+11:45:14.650 [main] DEBUG org.apache.http.wire -  << "Content-Length: 246[\r][\n]"
+11:45:14.650 [main] DEBUG org.apache.http.wire -  << "[\r][\n]"
+11:45:14.651 [main] DEBUG org.apache.http.impl.conn.DefaultClientConnection - Receiving response: HTTP/1.1 200 OK
+11:45:14.651 [main] DEBUG org.apache.http.headers - << HTTP/1.1 200 OK
+11:45:14.651 [main] DEBUG org.apache.http.headers - << Content-Type: application/json; charset=UTF-8
+11:45:14.651 [main] DEBUG org.apache.http.headers - << Vary: Origin
+11:45:14.651 [main] DEBUG org.apache.http.headers - << Date: Fri, 16 Jun 2023 04:45:14 GMT
+11:45:14.651 [main] DEBUG org.apache.http.headers - << Content-Length: 246
+11:45:14.657 [main] DEBUG org.apache.http.impl.client.DefaultHttpClient - Connection can be kept alive indefinitely
+11:45:14.665 [main] DEBUG io.restassured.internal.RestAssuredHttpBuilder - Parsing response as: application/json; charset=UTF-8
+11:45:14.665 [main] DEBUG io.restassured.internal.RestAssuredHttpBuilder - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+11:45:14.768 [main] DEBUG org.apache.http.wire -  << "{"meta":{"code":200,"status":"success","message":"successfully login"},"data":{"username":"admin","user_code":"AM-01","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MiwiZXhwIjoxNjg2OTAxNTE0fQ.NNXQ02IgtH81Hg_OCpKB6Wt5aKdJsvcIHQPf23FFT8k"}}[\n]"
+11:45:14.769 [main] DEBUG org.apache.http.impl.conn.BasicClientConnectionManager - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@73041b7d
+11:45:14.770 [main] DEBUG org.apache.http.impl.conn.BasicClientConnectionManager - Connection can be kept alive indefinitely
+11:45:16.170 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: cashier send HTTP POST request
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32madmin send HTTP POST request&amp#27;[0m               &amp#27;[90m# starter.stepdefinitions.Authentication.LoginSteps.adminSendHTTPPOSTRequest()&amp#27;[0m
+11:45:16.186 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: LoginSteps.adminReceiveValidHTTPResponseCode - cashier receive a valid HTTP response code 200
+11:45:16.258 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: cashier receive a valid HTTP response code 200
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32madmin receive valid HTTP response code 200&amp#27;[0m &amp#27;[90m# starter.stepdefinitions.Authentication.LoginSteps.adminReceiveValidHTTPResponseCode()&amp#27;[0m
+11:45:16.268 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: LoginSteps.adminReceivedTheToken - cashier received the token
+11:45:16.587 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: cashier received the token
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32madmin received the token&amp#27;[0m                    &amp#27;[90m# starter.stepdefinitions.Authentication.LoginSteps.adminReceivedTheToken()&amp#27;[0m
+11:45:16.611 [main] INFO  - 
+  _____   ___   ___   _____     ___     _     ___   ___   ___   ___  
+ |_   _| | __| / __| |_   _|   | _ \   /_\   / __| / __| | __| |   \ 
+   | |   | _|  \__ \   | |     |  _/  / _ \  \__ \ \__ \ | _|  | |) |
+   |_|   |___| |___/   |_|     |_|   /_/ \_\ |___/ |___/ |___| |___/ 
+
+POST - As a admin I can login
+----------------------------------------------------------------------
+]]></system-out>
+  </testcase>
+  <testcase name="GET ALL - As admin I can get all data details cashier" classname="User #2" time="1.006">
+    <system-out><![CDATA[11:45:16.637 [main] INFO io.cucumber.core.plugin.SerenityReporter - Running feature from file:///E:/SEMESTER%20VI/KAMPUS%20MERDEKA/capstone-pos/automation/api-automation-pos/src/test/resources/api/Cashier/Cashier.feature
+11:45:16.637 [main] WARN io.cucumber.core.plugin.SerenityReporter - Feature from file:///E:/SEMESTER%20VI/KAMPUS%20MERDEKA/capstone-pos/automation/api-automation-pos/src/test/resources/api/Cashier/Cashier.feature is not under the 'features' directory. Requirements report will not be correctly generated!
+11:45:16.645 [main] DEBUG net.thucydides.core.steps.StepEventBus - Test suite started for story net.thucydides.core.model.Story@6cdac86e
+11:45:16.668 [main] INFO  - Test Suite Started: User
+
+@GetAllCashier
+Scenario: GET ALL - As admin I can get all data details cashier &amp#27;[90m# src/test/resources/api/Cashier/Cashier.feature:7&amp#27;[0m
+11:45:16.692 [main] INFO io.cucumber.core.plugin.SerenityReporter - Running feature from file:///E:/SEMESTER%20VI/KAMPUS%20MERDEKA/capstone-pos/automation/api-automation-pos/src/test/resources/api/Cashier/Cashier.feature
+11:45:16.692 [main] WARN io.cucumber.core.plugin.SerenityReporter - Feature from file:///E:/SEMESTER%20VI/KAMPUS%20MERDEKA/capstone-pos/automation/api-automation-pos/src/test/resources/api/Cashier/Cashier.feature is not under the 'features' directory. Requirements report will not be correctly generated!
+11:45:16.698 [main] INFO  - 
+  _____   ___   ___   _____     ___   _____     _     ___   _____   ___   ___  
+ |_   _| | __| / __| |_   _|   / __| |_   _|   /_\   | _ \ |_   _| | __| |   \ 
+   | |   | _|  \__ \   | |     \__ \   | |    / _ \  |   /   | |   | _|  | |) |
+   |_|   |___| |___/   |_|     |___/   |_|   /_/ \_\ |_|_\   |_|   |___| |___/ 
+
+GET ALL - As admin I can get all data details cashier(user;get-all---as-admin-i-can-get-all-data-details-cashier)
+--------------------------------------------------------------------------------
+11:45:16.787 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: GetAllCashierSteps.adminHasApiEndpointGetAllCashier - admin has api endpoint get all cashier
+11:45:16.789 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: admin has api endpoint get all cashier
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32madmin has api endpoint get all cashier&amp#27;[0m                  &amp#27;[90m# starter.stepdefinitions.Cashier.GetAllCashierSteps.adminHasApiEndpointGetAllCashier()&amp#27;[0m
+11:45:16.806 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: GetAllCashierSteps.adminSendHTTPRequestGetAllCashier - admin send HTTP request get all cashier
+11:45:16.814 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: GetAllCashierPage.adminSendHTTPRequestGetAllCashier - admin has api endpoint get all cashier
+11:45:16.814 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: admin has api endpoint get all cashier
+11:45:17.031 [main] DEBUG org.apache.http.impl.conn.BasicClientConnectionManager - Get connection for route {}->http://128.199.206.32:8000
+11:45:17.032 [main] DEBUG org.apache.http.impl.conn.DefaultClientConnectionOperator - Connecting to 128.199.206.32:8000
+11:45:17.065 [main] DEBUG org.apache.http.client.protocol.RequestAddCookies - CookieSpec selected: ignoreCookies
+11:45:17.067 [main] DEBUG org.apache.http.client.protocol.RequestAuthCache - Auth cache not set in the context
+11:45:17.068 [main] DEBUG org.apache.http.client.protocol.RequestProxyAuthentication - Proxy auth state: UNCHALLENGED
+11:45:17.078 [main] DEBUG org.apache.http.impl.client.DefaultHttpClient - Attempt 1 to execute request
+11:45:17.078 [main] DEBUG org.apache.http.impl.conn.DefaultClientConnection - Sending request: GET /api/v1/admin/cashier?page=1 HTTP/1.1
+11:45:17.079 [main] DEBUG org.apache.http.wire -  >> "GET /api/v1/admin/cashier?page=1 HTTP/1.1[\r][\n]"
+11:45:17.079 [main] DEBUG org.apache.http.wire -  >> "Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MiwiZXhwIjoxNjg2OTAxNTE0fQ.NNXQ02IgtH81Hg_OCpKB6Wt5aKdJsvcIHQPf23FFT8k[\r][\n]"
+11:45:17.079 [main] DEBUG org.apache.http.wire -  >> "Accept: */*[\r][\n]"
+11:45:17.079 [main] DEBUG org.apache.http.wire -  >> "Host: 128.199.206.32:8000[\r][\n]"
+11:45:17.079 [main] DEBUG org.apache.http.wire -  >> "Connection: Keep-Alive[\r][\n]"
+11:45:17.079 [main] DEBUG org.apache.http.wire -  >> "User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_351)[\r][\n]"
+11:45:17.080 [main] DEBUG org.apache.http.wire -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+11:45:17.080 [main] DEBUG org.apache.http.wire -  >> "[\r][\n]"
+11:45:17.080 [main] DEBUG org.apache.http.headers - >> GET /api/v1/admin/cashier?page=1 HTTP/1.1
+11:45:17.080 [main] DEBUG org.apache.http.headers - >> Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MiwiZXhwIjoxNjg2OTAxNTE0fQ.NNXQ02IgtH81Hg_OCpKB6Wt5aKdJsvcIHQPf23FFT8k
+11:45:17.080 [main] DEBUG org.apache.http.headers - >> Accept: */*
+11:45:17.080 [main] DEBUG org.apache.http.headers - >> Host: 128.199.206.32:8000
+11:45:17.080 [main] DEBUG org.apache.http.headers - >> Connection: Keep-Alive
+11:45:17.080 [main] DEBUG org.apache.http.headers - >> User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_351)
+11:45:17.080 [main] DEBUG org.apache.http.headers - >> Accept-Encoding: gzip,deflate
+11:45:17.116 [main] DEBUG org.apache.http.wire -  << "HTTP/1.1 200 OK[\r][\n]"
+11:45:17.118 [main] DEBUG org.apache.http.wire -  << "Content-Type: application/json; charset=UTF-8[\r][\n]"
+11:45:17.118 [main] DEBUG org.apache.http.wire -  << "Vary: Origin[\r][\n]"
+11:45:17.118 [main] DEBUG org.apache.http.wire -  << "Date: Fri, 16 Jun 2023 04:45:17 GMT[\r][\n]"
+11:45:17.119 [main] DEBUG org.apache.http.wire -  << "Content-Length: 2033[\r][\n]"
+11:45:17.119 [main] DEBUG org.apache.http.wire -  << "[\r][\n]"
+11:45:17.119 [main] DEBUG org.apache.http.impl.conn.DefaultClientConnection - Receiving response: HTTP/1.1 200 OK
+11:45:17.119 [main] DEBUG org.apache.http.headers - << HTTP/1.1 200 OK
+11:45:17.119 [main] DEBUG org.apache.http.headers - << Content-Type: application/json; charset=UTF-8
+11:45:17.119 [main] DEBUG org.apache.http.headers - << Vary: Origin
+11:45:17.119 [main] DEBUG org.apache.http.headers - << Date: Fri, 16 Jun 2023 04:45:17 GMT
+11:45:17.119 [main] DEBUG org.apache.http.headers - << Content-Length: 2033
+11:45:17.120 [main] DEBUG org.apache.http.impl.client.DefaultHttpClient - Connection can be kept alive indefinitely
+11:45:17.120 [main] DEBUG io.restassured.internal.RestAssuredHttpBuilder - Parsing response as: application/json; charset=UTF-8
+11:45:17.120 [main] DEBUG io.restassured.internal.RestAssuredHttpBuilder - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+11:45:17.123 [main] DEBUG org.apache.http.wire -  << "{"meta":{"code":200,"status":"success","message":"successfully retrieved data"},"data":[{"id":4,"id_code":"LHGY-4033","name":"kaffein","password":"kaffein","role":"cashier","created_at":"2023-06-12T14:11:07+07:00","updated_at":"2023-06-12T14:11:07+07:00","transactions":null},{"id":6,"id_code":"RZUJ-8997","name":"kaffein","password":"$2a$10$Sm29AKkcGTLQQ4PV2.4tAeZeLolf/rHYE2z7LSeKYG.sSuA4E5znO","role":"cashier","created_at":"2023-06-12T14:52:09+07:00","updated_at":"2023-06-12T14:52:10+07:00","transactions":null},{"id":8,"id_code":"VGIK-8413","name":"kaffein","password":"$2a$10$PGfjX1qXNnxaKINezDggG.QdCp4Z8xplW410G9eKe8Qw5m1i5qfx6","role":"cashier","created_at":"2023-06-13T09:38:09+07:00","updated_at":"2023-06-13T09:38:09+07:00","transactions":null},{"id":17,"id_code":"GOPY-4727","name":"putriupdate","password":"$2a$10$UCpSw4cLC5moTlImXl4QWOZd2ZS6vV1R29OFW0UtAMadprraXpJ1S","role":"cashier","created_at":"2023-06-14T16:18:13+07:00","updated_at":"2023-06-15T13:02:04+07:00","transactions":null},{"id":33,"id_code":"AOPJ-1830","name":"CS-01","password":"$2a$10$hUVbg0P5WtiR1K4/LJGiquScrpOh7uQpBWPjkaI90lCCaWD/ujaju","role":"cashier","created_at":"2023-06-14T23:00:42+07:00","updated_at":"2023-06-14T23:00:42+07:00","transactions":null},{"id":34,"id_code":"ITMT-3351","name":"kasir","password":"$2a$10$WkYplsD3HqDOYjErW.MV9ew8KRgAWqyAFmEsIy9UkrWUn9ogM89hu","role":"cashier","created_at":"2023-06-14T23:03:37+07:00","updated_at":"2023-06-14T23:03:37+07:00","transactions":null},{"id":44,"id_code":"LLES-9097","name":"CS-03","password":"$2a$10$BuomJDAJ4t2cw04DKG2xT.ApW2ZMfY.kdOIMqMqsl8dzSf4nVTbPe","role":"cashier","created_at":"2023-06-15T13:02:04+07:00","updated_at":"2023-06-15T13:02:04+07:00","transactions":null},{"id":45,"id_code":"NZLP-3311","name":"zulfa","password":"$2a$10$iAmlagFELKetAi7NCA3OEeplbth.fyouJHhpmA57atvRqSBH1Z5iK","role":"cashier","created_at":"2023-06-15T16:22:21+07:00","updated_at":"2023-06-15T16:22:21+07:00","transactions":null}],"pagination":{"page":1,"limit":10,"total_items":8,"total_pages":1}}[\n]"
+11:45:17.124 [main] DEBUG org.apache.http.impl.conn.BasicClientConnectionManager - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@64f4f12
+11:45:17.125 [main] DEBUG org.apache.http.impl.conn.BasicClientConnectionManager - Connection can be kept alive indefinitely
+11:45:17.142 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: admin send HTTP request get all cashier
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32madmin send HTTP request get all cashier&amp#27;[0m                  &amp#27;[90m# starter.stepdefinitions.Cashier.GetAllCashierSteps.adminSendHTTPRequestGetAllCashier()&amp#27;[0m
+11:45:17.152 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: GetAllCashierSteps.adminReceiveResponseCode - admin receive response code 200
+11:45:17.155 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: admin receive response code 200
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32madmin receive response code 200&amp#27;[0m                          &amp#27;[90m# starter.stepdefinitions.Cashier.GetAllCashierSteps.adminReceiveResponseCode()&amp#27;[0m
+11:45:17.172 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: GetAllCashierSteps.adminValidateResponseBodyGetCashierInformation - admin validate response body get cashier information
+11:45:17.664 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: admin validate response body get cashier information
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32madmin validate response body get cashier information&amp#27;[0m      &amp#27;[90m# starter.stepdefinitions.Cashier.GetAllCashierSteps.adminValidateResponseBodyGetCashierInformation()&amp#27;[0m
+11:45:17.672 [main] INFO  - 
+  _____   ___   ___   _____     ___     _     ___   ___   ___   ___  
+ |_   _| | __| / __| |_   _|   | _ \   /_\   / __| / __| | __| |   \ 
+   | |   | _|  \__ \   | |     |  _/  / _ \  \__ \ \__ \ | _|  | |) |
+   |_|   |___| |___/   |_|     |_|   /_/ \_\ |___/ |___/ |___| |___/ 
+
+GET ALL - As admin I can get all data details cashier
+----------------------------------------------------------------------
+]]></system-out>
+  </testcase>
+  <testcase name="GET - As admin I can get search data details cashier" classname="User #2" time="0.595">
+    <system-out><![CDATA[
+@GetSearchCashier
+Scenario: GET - As admin I can get search data details cashier    &amp#27;[90m# src/test/resources/api/Cashier/Cashier.feature:14&amp#27;[0m
+11:45:17.690 [main] INFO io.cucumber.core.plugin.SerenityReporter - Running feature from file:///E:/SEMESTER%20VI/KAMPUS%20MERDEKA/capstone-pos/automation/api-automation-pos/src/test/resources/api/Cashier/Cashier.feature
+11:45:17.691 [main] WARN io.cucumber.core.plugin.SerenityReporter - Feature from file:///E:/SEMESTER%20VI/KAMPUS%20MERDEKA/capstone-pos/automation/api-automation-pos/src/test/resources/api/Cashier/Cashier.feature is not under the 'features' directory. Requirements report will not be correctly generated!
+11:45:17.722 [main] INFO  - 
+  _____   ___   ___   _____     ___   _____     _     ___   _____   ___   ___  
+ |_   _| | __| / __| |_   _|   / __| |_   _|   /_\   | _ \ |_   _| | __| |   \ 
+   | |   | _|  \__ \   | |     \__ \   | |    / _ \  |   /   | |   | _|  | |) |
+   |_|   |___| |___/   |_|     |___/   |_|   /_/ \_\ |_|_\   |_|   |___| |___/ 
+
+GET - As admin I can get search data details cashier(user;get---as-admin-i-can-get-search-data-details-cashier)
+--------------------------------------------------------------------------------
+11:45:17.830 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: GetSearchCashierSteps.adminHasApiEndpointGetCashier - admin has api endpoint get cashier
+11:45:17.832 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: admin has api endpoint get cashier
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32madmin has api endpoint get cashier&amp#27;[0m                        &amp#27;[90m# starter.stepdefinitions.Cashier.GetSearchCashierSteps.adminHasApiEndpointGetCashier()&amp#27;[0m
+11:45:17.854 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: GetSearchCashierSteps.adminSendHTTPRequestGetCashier - admin send HTTP request get cashier
+11:45:17.858 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: GetSearchCashierPage.adminSendHTTPRequestGetCashier - admin has api endpoint get cashier
+11:45:17.858 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: admin has api endpoint get cashier
+11:45:17.940 [main] DEBUG org.apache.http.impl.conn.BasicClientConnectionManager - Get connection for route {}->http://128.199.206.32:8000
+11:45:17.940 [main] DEBUG org.apache.http.impl.conn.DefaultClientConnectionOperator - Connecting to 128.199.206.32:8000
+11:45:17.970 [main] DEBUG org.apache.http.client.protocol.RequestAddCookies - CookieSpec selected: ignoreCookies
+11:45:17.970 [main] DEBUG org.apache.http.client.protocol.RequestAuthCache - Auth cache not set in the context
+11:45:17.970 [main] DEBUG org.apache.http.client.protocol.RequestProxyAuthentication - Proxy auth state: UNCHALLENGED
+11:45:17.970 [main] DEBUG org.apache.http.impl.client.DefaultHttpClient - Attempt 1 to execute request
+11:45:17.970 [main] DEBUG org.apache.http.impl.conn.DefaultClientConnection - Sending request: GET /api/v1/admin/cashier/search?user_code=LHGY-4033 HTTP/1.1
+11:45:17.971 [main] DEBUG org.apache.http.wire -  >> "GET /api/v1/admin/cashier/search?user_code=LHGY-4033 HTTP/1.1[\r][\n]"
+11:45:17.971 [main] DEBUG org.apache.http.wire -  >> "Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MiwiZXhwIjoxNjg2OTAxNTE0fQ.NNXQ02IgtH81Hg_OCpKB6Wt5aKdJsvcIHQPf23FFT8k[\r][\n]"
+11:45:17.971 [main] DEBUG org.apache.http.wire -  >> "Accept: */*[\r][\n]"
+11:45:17.971 [main] DEBUG org.apache.http.wire -  >> "Host: 128.199.206.32:8000[\r][\n]"
+11:45:17.971 [main] DEBUG org.apache.http.wire -  >> "Connection: Keep-Alive[\r][\n]"
+11:45:17.971 [main] DEBUG org.apache.http.wire -  >> "User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_351)[\r][\n]"
+11:45:17.971 [main] DEBUG org.apache.http.wire -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+11:45:17.971 [main] DEBUG org.apache.http.wire -  >> "[\r][\n]"
+11:45:17.971 [main] DEBUG org.apache.http.headers - >> GET /api/v1/admin/cashier/search?user_code=LHGY-4033 HTTP/1.1
+11:45:17.971 [main] DEBUG org.apache.http.headers - >> Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MiwiZXhwIjoxNjg2OTAxNTE0fQ.NNXQ02IgtH81Hg_OCpKB6Wt5aKdJsvcIHQPf23FFT8k
+11:45:17.971 [main] DEBUG org.apache.http.headers - >> Accept: */*
+11:45:17.971 [main] DEBUG org.apache.http.headers - >> Host: 128.199.206.32:8000
+11:45:17.972 [main] DEBUG org.apache.http.headers - >> Connection: Keep-Alive
+11:45:17.972 [main] DEBUG org.apache.http.headers - >> User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_351)
+11:45:17.972 [main] DEBUG org.apache.http.headers - >> Accept-Encoding: gzip,deflate
+11:45:18.008 [main] DEBUG org.apache.http.wire -  << "HTTP/1.1 200 OK[\r][\n]"
+11:45:18.009 [main] DEBUG org.apache.http.wire -  << "Content-Type: application/json; charset=UTF-8[\r][\n]"
+11:45:18.009 [main] DEBUG org.apache.http.wire -  << "Vary: Origin[\r][\n]"
+11:45:18.009 [main] DEBUG org.apache.http.wire -  << "Date: Fri, 16 Jun 2023 04:45:18 GMT[\r][\n]"
+11:45:18.009 [main] DEBUG org.apache.http.wire -  << "Content-Length: 262[\r][\n]"
+11:45:18.010 [main] DEBUG org.apache.http.wire -  << "[\r][\n]"
+11:45:18.010 [main] DEBUG org.apache.http.impl.conn.DefaultClientConnection - Receiving response: HTTP/1.1 200 OK
+11:45:18.010 [main] DEBUG org.apache.http.headers - << HTTP/1.1 200 OK
+11:45:18.010 [main] DEBUG org.apache.http.headers - << Content-Type: application/json; charset=UTF-8
+11:45:18.010 [main] DEBUG org.apache.http.headers - << Vary: Origin
+11:45:18.010 [main] DEBUG org.apache.http.headers - << Date: Fri, 16 Jun 2023 04:45:18 GMT
+11:45:18.010 [main] DEBUG org.apache.http.headers - << Content-Length: 262
+11:45:18.010 [main] DEBUG org.apache.http.impl.client.DefaultHttpClient - Connection can be kept alive indefinitely
+11:45:18.011 [main] DEBUG io.restassured.internal.RestAssuredHttpBuilder - Parsing response as: application/json; charset=UTF-8
+11:45:18.011 [main] DEBUG io.restassured.internal.RestAssuredHttpBuilder - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+11:45:18.030 [main] DEBUG org.apache.http.wire -  << "{"meta":{"code":200,"status":"Success","message":"Cashier found"},"data":{"id":4,"id_code":"LHGY-4033","name":"kaffein","password":"kaffein","role":"cashier","created_at":"2023-06-12T14:11:07+07:00","updated_at":"2023-06-12T14:11:07+07:00","transactions":null}}[\n]"
+11:45:18.036 [main] DEBUG org.apache.http.impl.conn.BasicClientConnectionManager - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@497ed877
+11:45:18.037 [main] DEBUG org.apache.http.impl.conn.BasicClientConnectionManager - Connection can be kept alive indefinitely
+11:45:18.039 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: admin send HTTP request get cashier
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32madmin send HTTP request get cashier&amp#27;[0m                        &amp#27;[90m# starter.stepdefinitions.Cashier.GetSearchCashierSteps.adminSendHTTPRequestGetCashier()&amp#27;[0m
+11:45:18.104 [Finalizer] DEBUG org.apache.http.impl.conn.DefaultClientConnection - Connection 0.0.0.0:53891<->128.199.206.32:8000 closed
+11:45:18.132 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: GetAllCashierSteps.adminReceiveResponseCode - admin receive response code 200
+11:45:18.136 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: admin receive response code 200
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32madmin receive response code 200&amp#27;[0m                            &amp#27;[90m# starter.stepdefinitions.Cashier.GetAllCashierSteps.adminReceiveResponseCode()&amp#27;[0m
+11:45:18.158 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: GetSearchCashierSteps.adminValidateResponseBodyGetSearchCashierInformation - admin validate response body get search cashier information
+11:45:18.265 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: admin validate response body get search cashier information
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32madmin validate response body get search cashier information&amp#27;[0m &amp#27;[90m# starter.stepdefinitions.Cashier.GetSearchCashierSteps.adminValidateResponseBodyGetSearchCashierInformation()&amp#27;[0m
+11:45:18.272 [main] INFO  - 
+  _____   ___   ___   _____     ___     _     ___   ___   ___   ___  
+ |_   _| | __| / __| |_   _|   | _ \   /_\   / __| / __| | __| |   \ 
+   | |   | _|  \__ \   | |     |  _/  / _ \  \__ \ \__ \ | _|  | |) |
+   |_|   |___| |___/   |_|     |_|   /_/ \_\ |___/ |___/ |___| |___/ 
+
+GET - As admin I can get search data details cashier
+----------------------------------------------------------------------
+]]></system-out>
+  </testcase>
+  <testcase name="POST - As admin I can add new cashier data" classname="User #2" time="0.649">
+    <system-out><![CDATA[
+@PostCreateCashier
+Scenario: POST - As admin I can add new cashier data       &amp#27;[90m# src/test/resources/api/Cashier/Cashier.feature:21&amp#27;[0m
+11:45:18.324 [main] INFO io.cucumber.core.plugin.SerenityReporter - Running feature from file:///E:/SEMESTER%20VI/KAMPUS%20MERDEKA/capstone-pos/automation/api-automation-pos/src/test/resources/api/Cashier/Cashier.feature
+11:45:18.324 [main] WARN io.cucumber.core.plugin.SerenityReporter - Feature from file:///E:/SEMESTER%20VI/KAMPUS%20MERDEKA/capstone-pos/automation/api-automation-pos/src/test/resources/api/Cashier/Cashier.feature is not under the 'features' directory. Requirements report will not be correctly generated!
+11:45:18.387 [main] INFO  - 
+  _____   ___   ___   _____     ___   _____     _     ___   _____   ___   ___  
+ |_   _| | __| / __| |_   _|   / __| |_   _|   /_\   | _ \ |_   _| | __| |   \ 
+   | |   | _|  \__ \   | |     \__ \   | |    / _ \  |   /   | |   | _|  | |) |
+   |_|   |___| |___/   |_|     |___/   |_|   /_/ \_\ |_|_\   |_|   |___| |___/ 
+
+POST - As admin I can add new cashier data(user;post---as-admin-i-can-add-new-cashier-data)
+--------------------------------------------------------------------------------
+11:45:18.474 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: PostCreateCashierSteps.adminHasApiEndpointCreateNewCashier - admin has api endpoint create new cashier
+11:45:18.475 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: admin has api endpoint create new cashier
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32madmin has api endpoint create new cashier&amp#27;[0m          &amp#27;[90m# starter.stepdefinitions.Cashier.PostCreateCashierSteps.adminHasApiEndpointCreateNewCashier()&amp#27;[0m
+11:45:18.484 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: PostCreateCashierSteps.adminSendHTTPRequestCreateNewCashier - admin send HTTP request create new cashier
+11:45:18.491 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: PostCreateCashierPage.adminSendHTTPRequestCreateNewCashier - admin has api endpoint create new cashier
+11:45:18.492 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: admin has api endpoint create new cashier
+11:45:18.552 [main] DEBUG org.apache.http.impl.conn.BasicClientConnectionManager - Get connection for route {}->http://128.199.206.32:8000
+11:45:18.553 [main] DEBUG org.apache.http.impl.conn.DefaultClientConnectionOperator - Connecting to 128.199.206.32:8000
+11:45:18.581 [main] DEBUG org.apache.http.client.protocol.RequestAddCookies - CookieSpec selected: ignoreCookies
+11:45:18.581 [main] DEBUG org.apache.http.client.protocol.RequestAuthCache - Auth cache not set in the context
+11:45:18.581 [main] DEBUG org.apache.http.client.protocol.RequestProxyAuthentication - Proxy auth state: UNCHALLENGED
+11:45:18.581 [main] DEBUG org.apache.http.impl.client.DefaultHttpClient - Attempt 1 to execute request
+11:45:18.581 [main] DEBUG org.apache.http.impl.conn.DefaultClientConnection - Sending request: POST /api/v1/admin/cashier HTTP/1.1
+11:45:18.581 [main] DEBUG org.apache.http.wire -  >> "POST /api/v1/admin/cashier HTTP/1.1[\r][\n]"
+11:45:18.582 [main] DEBUG org.apache.http.wire -  >> "Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MiwiZXhwIjoxNjg2OTAxNTE0fQ.NNXQ02IgtH81Hg_OCpKB6Wt5aKdJsvcIHQPf23FFT8k[\r][\n]"
+11:45:18.582 [main] DEBUG org.apache.http.wire -  >> "Accept: */*[\r][\n]"
+11:45:18.582 [main] DEBUG org.apache.http.wire -  >> "Content-Type: application/json[\r][\n]"
+11:45:18.582 [main] DEBUG org.apache.http.wire -  >> "Content-Length: 60[\r][\n]"
+11:45:18.582 [main] DEBUG org.apache.http.wire -  >> "Host: 128.199.206.32:8000[\r][\n]"
+11:45:18.582 [main] DEBUG org.apache.http.wire -  >> "Connection: Keep-Alive[\r][\n]"
+11:45:18.582 [main] DEBUG org.apache.http.wire -  >> "User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_351)[\r][\n]"
+11:45:18.582 [main] DEBUG org.apache.http.wire -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+11:45:18.582 [main] DEBUG org.apache.http.wire -  >> "[\r][\n]"
+11:45:18.582 [main] DEBUG org.apache.http.headers - >> POST /api/v1/admin/cashier HTTP/1.1
+11:45:18.582 [main] DEBUG org.apache.http.headers - >> Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MiwiZXhwIjoxNjg2OTAxNTE0fQ.NNXQ02IgtH81Hg_OCpKB6Wt5aKdJsvcIHQPf23FFT8k
+11:45:18.582 [main] DEBUG org.apache.http.headers - >> Accept: */*
+11:45:18.582 [main] DEBUG org.apache.http.headers - >> Content-Type: application/json
+11:45:18.582 [main] DEBUG org.apache.http.headers - >> Content-Length: 60
+11:45:18.582 [main] DEBUG org.apache.http.headers - >> Host: 128.199.206.32:8000
+11:45:18.582 [main] DEBUG org.apache.http.headers - >> Connection: Keep-Alive
+11:45:18.583 [main] DEBUG org.apache.http.headers - >> User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_351)
+11:45:18.584 [main] DEBUG org.apache.http.headers - >> Accept-Encoding: gzip,deflate
+11:45:18.585 [main] DEBUG org.apache.http.wire -  >> "{"password":"cashier04","role":"cashier","username":"CS-04"}"
+11:45:18.763 [main] DEBUG org.apache.http.wire -  << "HTTP/1.1 200 OK[\r][\n]"
+11:45:18.763 [main] DEBUG org.apache.http.wire -  << "Content-Type: application/json; charset=UTF-8[\r][\n]"
+11:45:18.763 [main] DEBUG org.apache.http.wire -  << "Vary: Origin[\r][\n]"
+11:45:18.763 [main] DEBUG org.apache.http.wire -  << "Date: Fri, 16 Jun 2023 04:45:19 GMT[\r][\n]"
+11:45:18.763 [main] DEBUG org.apache.http.wire -  << "Content-Length: 226[\r][\n]"
+11:45:18.763 [main] DEBUG org.apache.http.wire -  << "[\r][\n]"
+11:45:18.763 [main] DEBUG org.apache.http.impl.conn.DefaultClientConnection - Receiving response: HTTP/1.1 200 OK
+11:45:18.763 [main] DEBUG org.apache.http.headers - << HTTP/1.1 200 OK
+11:45:18.763 [main] DEBUG org.apache.http.headers - << Content-Type: application/json; charset=UTF-8
+11:45:18.763 [main] DEBUG org.apache.http.headers - << Vary: Origin
+11:45:18.763 [main] DEBUG org.apache.http.headers - << Date: Fri, 16 Jun 2023 04:45:19 GMT
+11:45:18.763 [main] DEBUG org.apache.http.headers - << Content-Length: 226
+11:45:18.764 [main] DEBUG org.apache.http.impl.client.DefaultHttpClient - Connection can be kept alive indefinitely
+11:45:18.764 [main] DEBUG io.restassured.internal.RestAssuredHttpBuilder - Parsing response as: application/json; charset=UTF-8
+11:45:18.764 [main] DEBUG io.restassured.internal.RestAssuredHttpBuilder - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+11:45:18.767 [main] DEBUG org.apache.http.wire -  << "{"meta":{"code":201,"status":"Success","message":"Cashier created"},"data":{"id":46,"id_code":"KXPC-8218","name":"CS-04","role":"cashier","created_at":"2023-06-16T04:45:19.028190139Z","updated_at":"2023-06-16T04:45:19.029Z"}}[\n]"
+11:45:18.767 [main] DEBUG org.apache.http.impl.conn.BasicClientConnectionManager - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@79ca7bea
+11:45:18.767 [main] DEBUG org.apache.http.impl.conn.BasicClientConnectionManager - Connection can be kept alive indefinitely
+11:45:18.768 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: admin send HTTP request create new cashier
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32madmin send HTTP request create new cashier&amp#27;[0m          &amp#27;[90m# starter.stepdefinitions.Cashier.PostCreateCashierSteps.adminSendHTTPRequestCreateNewCashier()&amp#27;[0m
+11:45:18.783 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: GetAllCashierSteps.adminReceiveResponseCode - admin receive response code 200
+11:45:18.789 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: admin receive response code 200
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32madmin receive response code 200&amp#27;[0m                     &amp#27;[90m# starter.stepdefinitions.Cashier.GetAllCashierSteps.adminReceiveResponseCode()&amp#27;[0m
+11:45:18.797 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: PostCreateCashierSteps.adminValidateResponseBodyPostCreateNewCashier - admin validate response body post create new cashier
+11:45:18.916 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: admin validate response body post create new cashier
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32madmin validate response body post create new cashier&amp#27;[0m &amp#27;[90m# starter.stepdefinitions.Cashier.PostCreateCashierSteps.adminValidateResponseBodyPostCreateNewCashier()&amp#27;[0m
+11:45:18.922 [main] INFO  - 
+  _____   ___   ___   _____     ___     _     ___   ___   ___   ___  
+ |_   _| | __| / __| |_   _|   | _ \   /_\   / __| / __| | __| |   \ 
+   | |   | _|  \__ \   | |     |  _/  / _ \  \__ \ \__ \ | _|  | |) |
+   |_|   |___| |___/   |_|     |_|   /_/ \_\ |___/ |___/ |___| |___/ 
+
+POST - As admin I can add new cashier data
+----------------------------------------------------------------------
+]]></system-out>
+  </testcase>
+  <testcase name="PUT - As admin I can update cashier data by id" classname="User #2" time="0.508">
+    <system-out><![CDATA[
+@UpdateCashierByID
+Scenario: PUT - As admin I can update cashier data by id &amp#27;[90m# src/test/resources/api/Cashier/Cashier.feature:28&amp#27;[0m
+11:45:18.960 [main] INFO io.cucumber.core.plugin.SerenityReporter - Running feature from file:///E:/SEMESTER%20VI/KAMPUS%20MERDEKA/capstone-pos/automation/api-automation-pos/src/test/resources/api/Cashier/Cashier.feature
+11:45:18.960 [main] WARN io.cucumber.core.plugin.SerenityReporter - Feature from file:///E:/SEMESTER%20VI/KAMPUS%20MERDEKA/capstone-pos/automation/api-automation-pos/src/test/resources/api/Cashier/Cashier.feature is not under the 'features' directory. Requirements report will not be correctly generated!
+11:45:18.964 [main] INFO  - 
+  _____   ___   ___   _____     ___   _____     _     ___   _____   ___   ___  
+ |_   _| | __| / __| |_   _|   / __| |_   _|   /_\   | _ \ |_   _| | __| |   \ 
+   | |   | _|  \__ \   | |     \__ \   | |    / _ \  |   /   | |   | _|  | |) |
+   |_|   |___| |___/   |_|     |___/   |_|   /_/ \_\ |_|_\   |_|   |___| |___/ 
+
+PUT - As admin I can update cashier data by id(user;put---as-admin-i-can-update-cashier-data-by-id)
+--------------------------------------------------------------------------------
+11:45:19.035 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: PutCashierByIdSteps.adminHasApiEndpointUpdateCashier - admin has api endpoint update cashier
+11:45:19.035 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: admin has api endpoint update cashier
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32madmin has api endpoint update cashier&amp#27;[0m            &amp#27;[90m# starter.stepdefinitions.Cashier.PutCashierByIdSteps.adminHasApiEndpointUpdateCashier()&amp#27;[0m
+11:45:19.052 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: PutCashierByIdSteps.adminSendHTTPRequestUpdateCashier - admin send HTTP request update cashier
+11:45:19.057 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: PutCashierByIdPage.adminSendHTTPRequestUpdateCashier - admin has api endpoint update cashier
+11:45:19.057 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: admin has api endpoint update cashier
+11:45:19.122 [main] DEBUG org.apache.http.impl.conn.BasicClientConnectionManager - Get connection for route {}->http://128.199.206.32:8000
+11:45:19.122 [main] DEBUG org.apache.http.impl.conn.DefaultClientConnectionOperator - Connecting to 128.199.206.32:8000
+11:45:19.154 [main] DEBUG org.apache.http.client.protocol.RequestAddCookies - CookieSpec selected: ignoreCookies
+11:45:19.156 [main] DEBUG org.apache.http.client.protocol.RequestAuthCache - Auth cache not set in the context
+11:45:19.156 [main] DEBUG org.apache.http.client.protocol.RequestProxyAuthentication - Proxy auth state: UNCHALLENGED
+11:45:19.156 [main] DEBUG org.apache.http.impl.client.DefaultHttpClient - Attempt 1 to execute request
+11:45:19.156 [main] DEBUG org.apache.http.impl.conn.DefaultClientConnection - Sending request: PUT /api/v1/admin/cashier/17 HTTP/1.1
+11:45:19.156 [main] DEBUG org.apache.http.wire -  >> "PUT /api/v1/admin/cashier/17 HTTP/1.1[\r][\n]"
+11:45:19.156 [main] DEBUG org.apache.http.wire -  >> "Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MiwiZXhwIjoxNjg2OTAxNTE0fQ.NNXQ02IgtH81Hg_OCpKB6Wt5aKdJsvcIHQPf23FFT8k[\r][\n]"
+11:45:19.156 [main] DEBUG org.apache.http.wire -  >> "Accept: */*[\r][\n]"
+11:45:19.156 [main] DEBUG org.apache.http.wire -  >> "Content-Type: application/json[\r][\n]"
+11:45:19.157 [main] DEBUG org.apache.http.wire -  >> "Content-Length: 70[\r][\n]"
+11:45:19.157 [main] DEBUG org.apache.http.wire -  >> "Host: 128.199.206.32:8000[\r][\n]"
+11:45:19.157 [main] DEBUG org.apache.http.wire -  >> "Connection: Keep-Alive[\r][\n]"
+11:45:19.157 [main] DEBUG org.apache.http.wire -  >> "User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_351)[\r][\n]"
+11:45:19.157 [main] DEBUG org.apache.http.wire -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+11:45:19.157 [main] DEBUG org.apache.http.wire -  >> "[\r][\n]"
+11:45:19.157 [main] DEBUG org.apache.http.headers - >> PUT /api/v1/admin/cashier/17 HTTP/1.1
+11:45:19.158 [main] DEBUG org.apache.http.headers - >> Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MiwiZXhwIjoxNjg2OTAxNTE0fQ.NNXQ02IgtH81Hg_OCpKB6Wt5aKdJsvcIHQPf23FFT8k
+11:45:19.158 [main] DEBUG org.apache.http.headers - >> Accept: */*
+11:45:19.158 [main] DEBUG org.apache.http.headers - >> Content-Type: application/json
+11:45:19.158 [main] DEBUG org.apache.http.headers - >> Content-Length: 70
+11:45:19.158 [main] DEBUG org.apache.http.headers - >> Host: 128.199.206.32:8000
+11:45:19.158 [main] DEBUG org.apache.http.headers - >> Connection: Keep-Alive
+11:45:19.158 [main] DEBUG org.apache.http.headers - >> User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_351)
+11:45:19.158 [main] DEBUG org.apache.http.headers - >> Accept-Encoding: gzip,deflate
+11:45:19.158 [main] DEBUG org.apache.http.wire -  >> "{"password":"putriupdate1","role":"cashier","username":"putriupdate1"}"
+11:45:19.290 [main] DEBUG org.apache.http.wire -  << "HTTP/1.1 200 OK[\r][\n]"
+11:45:19.291 [main] DEBUG org.apache.http.wire -  << "Content-Type: application/json; charset=UTF-8[\r][\n]"
+11:45:19.291 [main] DEBUG org.apache.http.wire -  << "Vary: Origin[\r][\n]"
+11:45:19.291 [main] DEBUG org.apache.http.wire -  << "Date: Fri, 16 Jun 2023 04:45:19 GMT[\r][\n]"
+11:45:19.291 [main] DEBUG org.apache.http.wire -  << "Content-Length: 262[\r][\n]"
+11:45:19.291 [main] DEBUG org.apache.http.wire -  << "[\r][\n]"
+11:45:19.291 [main] DEBUG org.apache.http.impl.conn.DefaultClientConnection - Receiving response: HTTP/1.1 200 OK
+11:45:19.291 [main] DEBUG org.apache.http.headers - << HTTP/1.1 200 OK
+11:45:19.291 [main] DEBUG org.apache.http.headers - << Content-Type: application/json; charset=UTF-8
+11:45:19.291 [main] DEBUG org.apache.http.headers - << Vary: Origin
+11:45:19.291 [main] DEBUG org.apache.http.headers - << Date: Fri, 16 Jun 2023 04:45:19 GMT
+11:45:19.291 [main] DEBUG org.apache.http.headers - << Content-Length: 262
+11:45:19.291 [main] DEBUG org.apache.http.impl.client.DefaultHttpClient - Connection can be kept alive indefinitely
+11:45:19.292 [main] DEBUG io.restassured.internal.RestAssuredHttpBuilder - Parsing response as: application/json; charset=UTF-8
+11:45:19.292 [main] DEBUG io.restassured.internal.RestAssuredHttpBuilder - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+11:45:19.301 [main] DEBUG org.apache.http.wire -  << "{"meta":{"code":200,"status":"Success","message":"Cashier edited"},"data":{"id":17,"id_code":"GOPY-4727","name":"putriupdate1","password":"","role":"cashier","created_at":"2023-06-14T16:18:13+07:00","updated_at":"2023-06-16T11:45:20+07:00","transactions":null}}[\n]"
+11:45:19.301 [main] DEBUG org.apache.http.impl.conn.BasicClientConnectionManager - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@16f7f59f
+11:45:19.302 [main] DEBUG org.apache.http.impl.conn.BasicClientConnectionManager - Connection can be kept alive indefinitely
+11:45:19.303 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: admin send HTTP request update cashier
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32madmin send HTTP request update cashier&amp#27;[0m            &amp#27;[90m# starter.stepdefinitions.Cashier.PutCashierByIdSteps.adminSendHTTPRequestUpdateCashier()&amp#27;[0m
+11:45:19.320 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: GetAllCashierSteps.adminReceiveResponseCode - admin receive response code 200
+11:45:19.321 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: admin receive response code 200
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32madmin receive response code 200&amp#27;[0m                   &amp#27;[90m# starter.stepdefinitions.Cashier.GetAllCashierSteps.adminReceiveResponseCode()&amp#27;[0m
+11:45:19.329 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: PutCashierByIdSteps.adminValidateResponseBodyUpdateCashier - admin validate response body update cashier
+11:45:19.443 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: admin validate response body update cashier
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32madmin validate response body update cashier&amp#27;[0m        &amp#27;[90m# starter.stepdefinitions.Cashier.PutCashierByIdSteps.adminValidateResponseBodyUpdateCashier()&amp#27;[0m
+11:45:19.448 [main] INFO  - 
+  _____   ___   ___   _____     ___     _     ___   ___   ___   ___  
+ |_   _| | __| / __| |_   _|   | _ \   /_\   / __| / __| | __| |   \ 
+   | |   | _|  \__ \   | |     |  _/  / _ \  \__ \ \__ \ | _|  | |) |
+   |_|   |___| |___/   |_|     |_|   /_/ \_\ |___/ |___/ |___| |___/ 
+
+PUT - As admin I can update cashier data by id
+----------------------------------------------------------------------
+]]></system-out>
+  </testcase>
+  <testcase name="DELETE - As admin I can delete cashier data by id" classname="User #2" time="0.404">
+    <system-out><![CDATA[
+@DelCashierByID
+Scenario: DELETE - As admin I can delete cashier data by id &amp#27;[90m# src/test/resources/api/Cashier/Cashier.feature:35&amp#27;[0m
+11:45:19.473 [main] INFO io.cucumber.core.plugin.SerenityReporter - Running feature from file:///E:/SEMESTER%20VI/KAMPUS%20MERDEKA/capstone-pos/automation/api-automation-pos/src/test/resources/api/Cashier/Cashier.feature
+11:45:19.473 [main] WARN io.cucumber.core.plugin.SerenityReporter - Feature from file:///E:/SEMESTER%20VI/KAMPUS%20MERDEKA/capstone-pos/automation/api-automation-pos/src/test/resources/api/Cashier/Cashier.feature is not under the 'features' directory. Requirements report will not be correctly generated!
+11:45:19.477 [main] INFO  - 
+  _____   ___   ___   _____     ___   _____     _     ___   _____   ___   ___  
+ |_   _| | __| / __| |_   _|   / __| |_   _|   /_\   | _ \ |_   _| | __| |   \ 
+   | |   | _|  \__ \   | |     \__ \   | |    / _ \  |   /   | |   | _|  | |) |
+   |_|   |___| |___/   |_|     |___/   |_|   /_/ \_\ |_|_\   |_|   |___| |___/ 
+
+DELETE - As admin I can delete cashier data by id(user;delete---as-admin-i-can-delete-cashier-data-by-id)
+--------------------------------------------------------------------------------
+11:45:19.520 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: DelCashierByIdSteps.adminHasApiEndpointDeleteCashier - admin has api endpoint delete cashier
+11:45:19.522 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: admin has api endpoint delete cashier
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32madmin has api endpoint delete cashier&amp#27;[0m               &amp#27;[90m# starter.stepdefinitions.Cashier.DelCashierByIdSteps.adminHasApiEndpointDeleteCashier()&amp#27;[0m
+11:45:19.539 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: DelCashierByIdSteps.adminSendHTTPRequestDeleteCashier - admin send HTTP request delete cashier
+11:45:19.545 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: DelCashierByIdPage.adminSendHTTPRequestDeleteCashier - admin has api endpoint delete cashier
+11:45:19.546 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: admin has api endpoint delete cashier
+11:45:19.585 [main] DEBUG org.apache.http.impl.conn.BasicClientConnectionManager - Get connection for route {}->http://128.199.206.32:8000
+11:45:19.586 [main] DEBUG org.apache.http.impl.conn.DefaultClientConnectionOperator - Connecting to 128.199.206.32:8000
+11:45:19.614 [main] DEBUG org.apache.http.client.protocol.RequestAddCookies - CookieSpec selected: ignoreCookies
+11:45:19.614 [main] DEBUG org.apache.http.client.protocol.RequestAuthCache - Auth cache not set in the context
+11:45:19.614 [main] DEBUG org.apache.http.client.protocol.RequestProxyAuthentication - Proxy auth state: UNCHALLENGED
+11:45:19.615 [main] DEBUG org.apache.http.impl.client.DefaultHttpClient - Attempt 1 to execute request
+11:45:19.615 [main] DEBUG org.apache.http.impl.conn.DefaultClientConnection - Sending request: DELETE /api/v1/admin/cashier/35 HTTP/1.1
+11:45:19.615 [main] DEBUG org.apache.http.wire -  >> "DELETE /api/v1/admin/cashier/35 HTTP/1.1[\r][\n]"
+11:45:19.615 [main] DEBUG org.apache.http.wire -  >> "Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MiwiZXhwIjoxNjg2OTAxNTE0fQ.NNXQ02IgtH81Hg_OCpKB6Wt5aKdJsvcIHQPf23FFT8k[\r][\n]"
+11:45:19.615 [main] DEBUG org.apache.http.wire -  >> "Accept: */*[\r][\n]"
+11:45:19.615 [main] DEBUG org.apache.http.wire -  >> "Host: 128.199.206.32:8000[\r][\n]"
+11:45:19.615 [main] DEBUG org.apache.http.wire -  >> "Connection: Keep-Alive[\r][\n]"
+11:45:19.615 [main] DEBUG org.apache.http.wire -  >> "User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_351)[\r][\n]"
+11:45:19.635 [main] DEBUG org.apache.http.wire -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+11:45:19.635 [main] DEBUG org.apache.http.wire -  >> "[\r][\n]"
+11:45:19.635 [main] DEBUG org.apache.http.headers - >> DELETE /api/v1/admin/cashier/35 HTTP/1.1
+11:45:19.635 [main] DEBUG org.apache.http.headers - >> Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MiwiZXhwIjoxNjg2OTAxNTE0fQ.NNXQ02IgtH81Hg_OCpKB6Wt5aKdJsvcIHQPf23FFT8k
+11:45:19.635 [main] DEBUG org.apache.http.headers - >> Accept: */*
+11:45:19.635 [main] DEBUG org.apache.http.headers - >> Host: 128.199.206.32:8000
+11:45:19.635 [main] DEBUG org.apache.http.headers - >> Connection: Keep-Alive
+11:45:19.635 [main] DEBUG org.apache.http.headers - >> User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_351)
+11:45:19.646 [main] DEBUG org.apache.http.headers - >> Accept-Encoding: gzip,deflate
+11:45:19.681 [main] DEBUG org.apache.http.wire -  << "HTTP/1.1 200 OK[\r][\n]"
+11:45:19.682 [main] DEBUG org.apache.http.wire -  << "Content-Type: application/json; charset=UTF-8[\r][\n]"
+11:45:19.682 [main] DEBUG org.apache.http.wire -  << "Vary: Origin[\r][\n]"
+11:45:19.682 [main] DEBUG org.apache.http.wire -  << "Date: Fri, 16 Jun 2023 04:45:20 GMT[\r][\n]"
+11:45:19.682 [main] DEBUG org.apache.http.wire -  << "Content-Length: 79[\r][\n]"
+11:45:19.682 [main] DEBUG org.apache.http.wire -  << "[\r][\n]"
+11:45:19.682 [main] DEBUG org.apache.http.impl.conn.DefaultClientConnection - Receiving response: HTTP/1.1 200 OK
+11:45:19.686 [main] DEBUG org.apache.http.headers - << HTTP/1.1 200 OK
+11:45:19.686 [main] DEBUG org.apache.http.headers - << Content-Type: application/json; charset=UTF-8
+11:45:19.686 [main] DEBUG org.apache.http.headers - << Vary: Origin
+11:45:19.686 [main] DEBUG org.apache.http.headers - << Date: Fri, 16 Jun 2023 04:45:20 GMT
+11:45:19.686 [main] DEBUG org.apache.http.headers - << Content-Length: 79
+11:45:19.686 [main] DEBUG org.apache.http.impl.client.DefaultHttpClient - Connection can be kept alive indefinitely
+11:45:19.687 [main] DEBUG io.restassured.internal.RestAssuredHttpBuilder - Parsing response as: application/json; charset=UTF-8
+11:45:19.687 [main] DEBUG io.restassured.internal.RestAssuredHttpBuilder - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+11:45:19.692 [main] DEBUG org.apache.http.wire -  << "{"meta":{"code":200,"status":"Success","message":"Cashier deleted"},"data":""}[\n]"
+11:45:19.692 [main] DEBUG org.apache.http.impl.conn.BasicClientConnectionManager - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@7c71c889
+11:45:19.692 [main] DEBUG org.apache.http.impl.conn.BasicClientConnectionManager - Connection can be kept alive indefinitely
+11:45:19.694 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: admin send HTTP request delete cashier
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32madmin send HTTP request delete cashier&amp#27;[0m               &amp#27;[90m# starter.stepdefinitions.Cashier.DelCashierByIdSteps.adminSendHTTPRequestDeleteCashier()&amp#27;[0m
+11:45:19.719 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: GetAllCashierSteps.adminReceiveResponseCode - admin receive response code 200
+11:45:19.720 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: admin receive response code 200
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32madmin receive response code 200&amp#27;[0m                      &amp#27;[90m# starter.stepdefinitions.Cashier.GetAllCashierSteps.adminReceiveResponseCode()&amp#27;[0m
+11:45:19.728 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: DelCashierByIdSteps.adminValidateResponseBodyDeleteCashier - admin validate response body delete cashier
+11:45:19.846 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: admin validate response body delete cashier
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32madmin validate response body delete cashier&amp#27;[0m           &amp#27;[90m# starter.stepdefinitions.Cashier.DelCashierByIdSteps.adminValidateResponseBodyDeleteCashier()&amp#27;[0m
+11:45:19.854 [main] INFO  - 
+  _____   ___   ___   _____     ___     _     ___   ___   ___   ___  
+ |_   _| | __| / __| |_   _|   | _ \   /_\   / __| / __| | __| |   \ 
+   | |   | _|  \__ \   | |     |  _/  / _ \  \__ \ \__ \ | _|  | |) |
+   |_|   |___| |___/   |_|     |_|   /_/ \_\ |___/ |___/ |___| |___/ 
+
+DELETE - As admin I can delete cashier data by id
+----------------------------------------------------------------------
+]]></system-out>
+  </testcase>
+  <testcase name="GET ALL - As admin I can get all data details order" classname="Order" time="0.465">
+    <system-out><![CDATA[11:45:19.875 [main] INFO io.cucumber.core.plugin.SerenityReporter - Running feature from file:///E:/SEMESTER%20VI/KAMPUS%20MERDEKA/capstone-pos/automation/api-automation-pos/src/test/resources/api/Order/Order.feature
+11:45:19.877 [main] WARN io.cucumber.core.plugin.SerenityReporter - Feature from file:///E:/SEMESTER%20VI/KAMPUS%20MERDEKA/capstone-pos/automation/api-automation-pos/src/test/resources/api/Order/Order.feature is not under the 'features' directory. Requirements report will not be correctly generated!
+11:45:19.880 [main] DEBUG net.thucydides.core.steps.StepEventBus - Test suite started for story net.thucydides.core.model.Story@8717ae21
+11:45:19.881 [main] INFO  - Test Suite Started: Order
+
+@GetAllCashier
+Scenario: GET ALL - As admin I can get all data details order &amp#27;[90m# src/test/resources/api/Order/Order.feature:7&amp#27;[0m
+11:45:20.082 [main] INFO io.cucumber.core.plugin.SerenityReporter - Running feature from file:///E:/SEMESTER%20VI/KAMPUS%20MERDEKA/capstone-pos/automation/api-automation-pos/src/test/resources/api/Order/Order.feature
+11:45:20.082 [main] WARN io.cucumber.core.plugin.SerenityReporter - Feature from file:///E:/SEMESTER%20VI/KAMPUS%20MERDEKA/capstone-pos/automation/api-automation-pos/src/test/resources/api/Order/Order.feature is not under the 'features' directory. Requirements report will not be correctly generated!
+11:45:20.086 [main] INFO  - 
+  _____   ___   ___   _____     ___   _____     _     ___   _____   ___   ___  
+ |_   _| | __| / __| |_   _|   / __| |_   _|   /_\   | _ \ |_   _| | __| |   \ 
+   | |   | _|  \__ \   | |     \__ \   | |    / _ \  |   /   | |   | _|  | |) |
+   |_|   |___| |___/   |_|     |___/   |_|   /_/ \_\ |_|_\   |_|   |___| |___/ 
+
+GET ALL - As admin I can get all data details order(order;get-all---as-admin-i-can-get-all-data-details-order)
+--------------------------------------------------------------------------------
+11:45:20.130 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: GetOrderSteps.adminHasApiEndpointGetAllOrder - admin has api endpoint get all order
+11:45:20.130 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: admin has api endpoint get all order
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32madmin has api endpoint get all order&amp#27;[0m                  &amp#27;[90m# starter.stepdefinitions.Order.GetOrderSteps.adminHasApiEndpointGetAllOrder()&amp#27;[0m
+11:45:20.145 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: GetOrderSteps.adminSendHTTPRequestGetAllOrder - admin send HTTP request get all order
+11:45:20.147 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: GetOrderPage.adminSendHTTPRequestGetAllOrder - admin has api endpoint get all order
+11:45:20.147 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: admin has api endpoint get all order
+11:45:20.178 [main] DEBUG org.apache.http.impl.conn.BasicClientConnectionManager - Get connection for route {}->http://128.199.206.32:8000
+11:45:20.179 [main] DEBUG org.apache.http.impl.conn.DefaultClientConnectionOperator - Connecting to 128.199.206.32:8000
+11:45:20.209 [main] DEBUG org.apache.http.client.protocol.RequestAddCookies - CookieSpec selected: ignoreCookies
+11:45:20.209 [main] DEBUG org.apache.http.client.protocol.RequestAuthCache - Auth cache not set in the context
+11:45:20.209 [main] DEBUG org.apache.http.client.protocol.RequestProxyAuthentication - Proxy auth state: UNCHALLENGED
+11:45:20.209 [main] DEBUG org.apache.http.impl.client.DefaultHttpClient - Attempt 1 to execute request
+11:45:20.209 [main] DEBUG org.apache.http.impl.conn.DefaultClientConnection - Sending request: GET /api/v1/admin/orders HTTP/1.1
+11:45:20.209 [main] DEBUG org.apache.http.wire -  >> "GET /api/v1/admin/orders HTTP/1.1[\r][\n]"
+11:45:20.209 [main] DEBUG org.apache.http.wire -  >> "Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MiwiZXhwIjoxNjg2OTAxNTE0fQ.NNXQ02IgtH81Hg_OCpKB6Wt5aKdJsvcIHQPf23FFT8k[\r][\n]"
+11:45:20.209 [main] DEBUG org.apache.http.wire -  >> "Accept: */*[\r][\n]"
+11:45:20.209 [main] DEBUG org.apache.http.wire -  >> "Host: 128.199.206.32:8000[\r][\n]"
+11:45:20.209 [main] DEBUG org.apache.http.wire -  >> "Connection: Keep-Alive[\r][\n]"
+11:45:20.209 [main] DEBUG org.apache.http.wire -  >> "User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_351)[\r][\n]"
+11:45:20.209 [main] DEBUG org.apache.http.wire -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+11:45:20.209 [main] DEBUG org.apache.http.wire -  >> "[\r][\n]"
+11:45:20.210 [main] DEBUG org.apache.http.headers - >> GET /api/v1/admin/orders HTTP/1.1
+11:45:20.210 [main] DEBUG org.apache.http.headers - >> Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MiwiZXhwIjoxNjg2OTAxNTE0fQ.NNXQ02IgtH81Hg_OCpKB6Wt5aKdJsvcIHQPf23FFT8k
+11:45:20.210 [main] DEBUG org.apache.http.headers - >> Accept: */*
+11:45:20.210 [main] DEBUG org.apache.http.headers - >> Host: 128.199.206.32:8000
+11:45:20.210 [main] DEBUG org.apache.http.headers - >> Connection: Keep-Alive
+11:45:20.210 [main] DEBUG org.apache.http.headers - >> User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_351)
+11:45:20.210 [main] DEBUG org.apache.http.headers - >> Accept-Encoding: gzip,deflate
+11:45:20.271 [main] DEBUG org.apache.http.wire -  << "HTTP/1.1 200 OK[\r][\n]"
+11:45:20.271 [main] DEBUG org.apache.http.wire -  << "Content-Type: application/json; charset=UTF-8[\r][\n]"
+11:45:20.271 [main] DEBUG org.apache.http.wire -  << "Vary: Origin[\r][\n]"
+11:45:20.272 [main] DEBUG org.apache.http.wire -  << "Date: Fri, 16 Jun 2023 04:45:20 GMT[\r][\n]"
+11:45:20.272 [main] DEBUG org.apache.http.wire -  << "Content-Length: 1566[\r][\n]"
+11:45:20.272 [main] DEBUG org.apache.http.wire -  << "[\r][\n]"
+11:45:20.272 [main] DEBUG org.apache.http.impl.conn.DefaultClientConnection - Receiving response: HTTP/1.1 200 OK
+11:45:20.272 [main] DEBUG org.apache.http.headers - << HTTP/1.1 200 OK
+11:45:20.272 [main] DEBUG org.apache.http.headers - << Content-Type: application/json; charset=UTF-8
+11:45:20.272 [main] DEBUG org.apache.http.headers - << Vary: Origin
+11:45:20.272 [main] DEBUG org.apache.http.headers - << Date: Fri, 16 Jun 2023 04:45:20 GMT
+11:45:20.272 [main] DEBUG org.apache.http.headers - << Content-Length: 1566
+11:45:20.272 [main] DEBUG org.apache.http.impl.client.DefaultHttpClient - Connection can be kept alive indefinitely
+11:45:20.272 [main] DEBUG io.restassured.internal.RestAssuredHttpBuilder - Parsing response as: application/json; charset=UTF-8
+11:45:20.272 [main] DEBUG io.restassured.internal.RestAssuredHttpBuilder - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+11:45:20.275 [main] DEBUG org.apache.http.wire -  << "{"meta":{"code":200,"status":"success","message":"successfully get data order"},"data":[{"order_id":"01-12062023","order_option":"DINE_IN","created_at":"2023-06-12T16:02:24+07:00","status":"Paid","payment":"BCA","grand_total":44015},{"order_id":"02-12062023","order_option":"DINE_IN","created_at":"2023-06-12T17:29:37+07:00","status":"Paid","payment":"BCA","grand_total":44015},{"order_id":"03-12062023","order_option":"DINE_IN","created_at":"2023-06-12T17:33:32+07:00","status":"Paid","payment":"BCA","grand_total":44015},{"order_id":"04-12062023","order_option":"DINE_IN","created_at":"2023-06-12T19:50:44+07:00","status":"Paid","payment":"BCA","grand_total":44044},{"order_id":"05-12062023","order_option":"DINE_IN","created_at":"2023-06-12T20:01:16+07:00","status":"Paid","payment":"BCA","grand_total":44044},{"order_id":"06-12062023","order_option":"DINE_IN","created_at":"2023-06-12T20:22:39+07:00","status":"PAID","payment":"BCA","grand_total":44044},{"order_id":"07-12062023","order_option":"DINE_IN","created_at":"2023-06-12T20:24:13+07:00","status":"PAID","payment":"BCA","grand_total":1529000},{"order_id":"08-12062023","order_option":"DINE_IN","created_at":"2023-06-12T20:24:30+07:00","status":"PAID","payment":"BCA","grand_total":1529000},{"order_id":"09-12062023","order_option":"DINE_IN","created_at":"2023-06-12T20:24:40+07:00","payment":"","grand_total":0},{"order_id":"10-12062023","order_option":"DINE_IN","created_at":"2023-06-12T20:27:09+07:00","payment":"","grand_total":0}],"pagination":{"page":1,"limit":10,"total_items":29,"total_pages":3}}[\n]"
+11:45:20.279 [main] DEBUG org.apache.http.impl.conn.BasicClientConnectionManager - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@4975dda1
+11:45:20.279 [main] DEBUG org.apache.http.impl.conn.BasicClientConnectionManager - Connection can be kept alive indefinitely
+11:45:20.286 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: admin send HTTP request get all order
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32madmin send HTTP request get all order&amp#27;[0m                  &amp#27;[90m# starter.stepdefinitions.Order.GetOrderSteps.adminSendHTTPRequestGetAllOrder()&amp#27;[0m
+11:45:20.298 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: GetAllCashierSteps.adminReceiveResponseCode - admin receive response code 200
+11:45:20.299 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: admin receive response code 200
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32madmin receive response code 200&amp#27;[0m                        &amp#27;[90m# starter.stepdefinitions.Cashier.GetAllCashierSteps.adminReceiveResponseCode()&amp#27;[0m
+11:45:20.305 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: GetOrderSteps.adminValidateResponseBodyGetOrderInformation - admin validate response body get order information
+11:45:20.403 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: admin validate response body get order information
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32madmin validate response body get order information&amp#27;[0m      &amp#27;[90m# starter.stepdefinitions.Order.GetOrderSteps.adminValidateResponseBodyGetOrderInformation()&amp#27;[0m
+11:45:20.410 [main] INFO  - 
+  _____   ___   ___   _____     ___     _     ___   ___   ___   ___  
+ |_   _| | __| / __| |_   _|   | _ \   /_\   / __| / __| | __| |   \ 
+   | |   | _|  \__ \   | |     |  _/  / _ \  \__ \ \__ \ | _|  | |) |
+   |_|   |___| |___/   |_|     |_|   /_/ \_\ |___/ |___/ |___| |___/ 
+
+GET ALL - As admin I can get all data details order
+----------------------------------------------------------------------
+]]></system-out>
+  </testcase>
+</testsuite>

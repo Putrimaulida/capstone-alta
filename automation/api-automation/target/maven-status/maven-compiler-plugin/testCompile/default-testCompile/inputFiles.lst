@@ -1,3 +1,15 @@
-E:\SEMESTER VI\KAMPUS MERDEKA\capstone-pos\automation\api-automation\src\test\java\starter\user\Login\LoginPage.java
-E:\SEMESTER VI\KAMPUS MERDEKA\capstone-pos\automation\api-automation\src\test\java\starter\stepdefinitions\Login\LoginSteps.java
+E:\SEMESTER VI\KAMPUS MERDEKA\capstone-pos\automation\api-automation\src\test\java\starter\stepdefinitions\Cashier\GetSearchItemByNameSteps.java
+E:\SEMESTER VI\KAMPUS MERDEKA\capstone-pos\automation\api-automation\src\test\java\starter\user\Cashier\GetCategoriesItemPage.java
+E:\SEMESTER VI\KAMPUS MERDEKA\capstone-pos\automation\api-automation\src\test\java\starter\stepdefinitions\Cashier\GetCategoriesItemSteps.java
+E:\SEMESTER VI\KAMPUS MERDEKA\capstone-pos\automation\api-automation\src\test\java\starter\user\Authentication\LoginPage.java
+E:\SEMESTER VI\KAMPUS MERDEKA\capstone-pos\automation\api-automation\src\test\java\starter\user\Cashier\PostCreateMembershipsPage.java
+E:\SEMESTER VI\KAMPUS MERDEKA\capstone-pos\automation\api-automation\src\test\java\starter\stepdefinitions\Cashier\GetSearchItemByIdSteps.java
+E:\SEMESTER VI\KAMPUS MERDEKA\capstone-pos\automation\api-automation\src\test\java\starter\user\Cashier\GetSearchItemByNamePage.java
+E:\SEMESTER VI\KAMPUS MERDEKA\capstone-pos\automation\api-automation\src\test\java\starter\stepdefinitions\Authentication\LoginSteps.java
+E:\SEMESTER VI\KAMPUS MERDEKA\capstone-pos\automation\api-automation\src\test\java\starter\stepdefinitions\Cashier\GetCategorySteps.java
+E:\SEMESTER VI\KAMPUS MERDEKA\capstone-pos\automation\api-automation\src\test\java\starter\user\Cashier\PostCreateTransactionPage.java
+E:\SEMESTER VI\KAMPUS MERDEKA\capstone-pos\automation\api-automation\src\test\java\starter\user\Cashier\GetCategoryPage.java
+E:\SEMESTER VI\KAMPUS MERDEKA\capstone-pos\automation\api-automation\src\test\java\starter\user\Cashier\GetSearchItemByIdPage.java
+E:\SEMESTER VI\KAMPUS MERDEKA\capstone-pos\automation\api-automation\src\test\java\starter\stepdefinitions\Cashier\PostCreateTransactionSteps.java
 E:\SEMESTER VI\KAMPUS MERDEKA\capstone-pos\automation\api-automation\src\test\java\starter\CucumberTestSuite.java
+E:\SEMESTER VI\KAMPUS MERDEKA\capstone-pos\automation\api-automation\src\test\java\starter\stepdefinitions\Cashier\PostCreateMembershipsSteps.java

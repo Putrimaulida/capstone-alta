@@ -1,0 +1,15 @@
+starter\stepdefinitions\Cashier\PutCashierByIdSteps.class
+starter\user\Cashier\PutCashierByIdPage.class
+starter\user\Cashier\PostCreateCashierPage.class
+starter\stepdefinitions\Cashier\DelCashierByIdSteps.class
+starter\stepdefinitions\Cashier\GetSearchCashierSteps.class
+starter\user\Order\GetOrderPage.class
+starter\user\Authentication\LoginPage.class
+starter\stepdefinitions\Cashier\GetAllCashierSteps.class
+starter\user\Cashier\GetAllCashierPage.class
+starter\CucumberTestSuite.class
+starter\stepdefinitions\Cashier\PostCreateCashierSteps.class
+starter\stepdefinitions\Authentication\LoginSteps.class
+starter\stepdefinitions\Order\GetOrderSteps.class
+starter\user\Cashier\DelCashierByIdPage.class
+starter\user\Cashier\GetSearchCashierPage.class

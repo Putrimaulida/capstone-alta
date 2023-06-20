@@ -1,0 +1,2 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"User","GET - Cashier get search item by name with valid endpoint input","FAILURE","2023-06-16T11:43:27.291+07:00[Asia/Bangkok]","0.0","0.36"

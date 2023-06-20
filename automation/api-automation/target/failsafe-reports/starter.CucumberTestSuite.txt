@@ -1,8 +1,37 @@
 -------------------------------------------------------------------------------
 Test set: starter.CucumberTestSuite
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 16.791 s <<< FAILURE! - in starter.CucumberTestSuite
-User.POST - As admin I can login  Time elapsed: 9.609 s  <<< ERROR!
-java.lang.RuntimeException: Some exception during recording fields
-Caused by: java.net.ConnectException: Connection refused: connect
+Tests run: 7, Failures: 5, Errors: 1, Skipped: 0, Time elapsed: 22.588 s <<< FAILURE! - in starter.CucumberTestSuite
+User #2.GET - Cashier get categories & items with valid endpoint input  Time elapsed: 0.651 s  <<< FAILURE!
+java.lang.AssertionError: 
+1 expectation failed.
+Expected status code <200> but was <401>.
+
+
+User #2.GET - Cashier get search item by name with valid endpoint input  Time elapsed: 0.417 s  <<< FAILURE!
+java.lang.AssertionError: 
+1 expectation failed.
+Expected status code <200> but was <401>.
+
+
+User #2.GET - Cashier get search item by id with valid endpoint input  Time elapsed: 0.424 s  <<< FAILURE!
+java.lang.AssertionError: 
+1 expectation failed.
+Expected status code <200> but was <401>.
+
+
+User #2.GET - Cashier get category with valid endpoint input  Time elapsed: 0.591 s  <<< FAILURE!
+java.lang.AssertionError: 
+1 expectation failed.
+Expected status code <200> but was <401>.
+
+
+User #2.POST - Cashier can add new memberships data  Time elapsed: 0.339 s  <<< FAILURE!
+java.lang.AssertionError: 
+1 expectation failed.
+Expected status code <200> but was <401>.
+
+
+User #2.POST - Cashier can add new transaction  Time elapsed: 0.189 s  <<< ERROR!
+org.json.JSONException: Missing value at 220 [character 12 line 15]
 

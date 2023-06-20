@@ -1,3 +1,15 @@
+starter\stepdefinitions\Cashier\GetSearchItemByIdSteps.class
+starter\stepdefinitions\Cashier\PostCreateTransactionSteps.class
+starter\stepdefinitions\Cashier\GetSearchItemByNameSteps.class
+starter\user\Cashier\PostCreateTransactionPage.class
+starter\user\Cashier\GetCategoryPage.class
+starter\user\Cashier\PostCreateMembershipsPage.class
+starter\user\Cashier\GetSearchItemByNamePage.class
+starter\user\Authentication\LoginPage.class
+starter\user\Cashier\GetSearchItemByIdPage.class
+starter\stepdefinitions\Cashier\GetCategoriesItemSteps.class
 starter\CucumberTestSuite.class
-starter\user\Login\LoginPage.class
-starter\stepdefinitions\Login\LoginSteps.class
+starter\stepdefinitions\Cashier\GetCategorySteps.class
+starter\stepdefinitions\Cashier\PostCreateMembershipsSteps.class
+starter\user\Cashier\GetCategoriesItemPage.class
+starter\stepdefinitions\Authentication\LoginSteps.class
