@@ -2,8 +2,8 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/automation" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/automation/mobile-automation-altashop" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/automation/mobile-automation-altashop/mobile-automation-altashop" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/automation/web-automation-pos" vcs="Git" />
   </component>
 </project>
